@@ -106,3 +106,5 @@ dist
 # builded sources
 build
 dist
+
+.DS_Store

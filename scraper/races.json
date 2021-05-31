@@ -1,0 +1,1222 @@
+[
+  {
+    "faction": "Alliance",
+    "name": "Human",
+    "type": "Core",
+    "intro": {
+      "title": "Defenders of the Kingdom",
+      "body": "Recent discoveries have shown that humans are descended from the barbaric vrykul, half-giant warriors who live in Northrend. Early humans were primarily a scattered and tribal people for several millennia, until the rising strength of the troll empire forced their strategic unification. Thus the nation of Arathor was formed, along with its capital, the city-state of Strom."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/R41P9AES06Y81456964565830.png",
+    "history": {
+      "title": "Human History",
+      "body": "After centuries of peace, the increasingly independent city-states of Arathor split into kingdoms: Gilneas to the west, Alterac, Dalaran, and Lordaeron to the northwest, Kul Tiras to the southwest, and Stormwind to the far south. Strom itself was renamed Stromgarde and remained a powerful kingdom.\nBut disaster struck when the orcish Horde appeared on Azeroth and reduced Stormwind to ruins. The city’s survivors, including the young prince, Varian Wrynn, fled to Lordaeron, where the leaders of the seven kingdoms resolved to unify once again in the Alliance of Lordaeron. Together, they succeeded in defeating the Horde. But peace for the Alliance would only prove to be temporary.\nAs upkeep costs rose, Gilneas and Stromgarde withdrew their kingdoms from the Alliance. Then came a plague that killed thousands of humans and converted them into undead servants of the Lich King. Lordaeron’s prince, Arthas Menethil, was manipulated by the Lich King, leading Arthas to kill his own father and journey to Northrend, where he merged with his master and became the next Lich King. For the next five years, Arthas remained in Northrend, plotting and building up his armies.\nBut before Arthas could unleash his gathered power, humans and other other races banded together, securing a costly victory. Members of the Horde and the Alliance launched separate campaigns in Northrend, and their efforts resulted in the Lich King’s defeat.\nThe kingdom of Stormwind has become the strongest bastion of humanity and the most powerful force in the now multi-racial Alliance. Now, the people of Stormwind hold fast to the principles of honor and justice as they defend their settlements and their allies."
+    },
+    "zone": {
+      "name": "Elwynn Forest",
+      "description": "The peaceful woodlands to the south of Stormwind City seem more tranquil than ever since the fall of the Defias Brotherhood, but the inhabitants of Elwynn Forest are hardly idle. There are fields to sow, mines to work, and lumber to harvest. For all its pomp and grandeur, Stormwind wouldn’t last long without a constant stream of food and supplies to support the city’s population. This exchange has become increasingly threatened by kobold invasions, vicious feuds among farmers, and attacks from wild animals. Northshire Abbey remains dedicated to recruiting and training any adventurers brave enough to help keep the peace. Likewise, the Blackrock orcs are gathering their forces in the nearby Redridge Mountains. With Stormwind’s militia stretched thinner than ever, these renegade orcs stand ready to finally annihilate their old human enemies in Elwynn Forest."
+    },
+    "city": {
+      "name": "Stormwind City",
+      "description": "No city better demonstrates human determination than Stormwind. Destroyed during the Horde’s initial invasion of Azeroth, Stormwind was painstakingly reconstructed by the Stonemasons’ Guild after the Second War. Parts of the city were razed again when Deathwing, the corrupted black Dragon Aspect, brutally attacked Stormwind, but the other undamaged districts are more beautiful than ever thanks to their hardworking inhabitants. From the magnificent Cathedral of Light, which serves as a major spiritual hub, to the awe-inspiring Valley of Heroes, which commemorates the sacrifices of Stormwind’s loyal champions, the city truly represents the courageous heart of humanity."
+    },
+    "mount": {
+      "name": "Horse",
+      "description": "These trusty steeds have carried their human masters to battle since before the First War. Known for their swiftness and spirited temperaments, these mounts are perfectly suited for their heroic riders. The Evendales of Elwynn Forest are especially prized by adventurers for their loyalty and steadiness in the face of danger. Due to their overwhelming popularity, these horses can also be found in Theramore and even the Wetlands."
+    },
+    "traits": [
+      {
+        "name": "Will to Survive",
+        "description": "Will to SurviveHumans can shake off debilitating stun effects."
+      },
+      {
+        "name": "Diplomacy",
+        "description": "DiplomacyThe straightforward and outspoken humans tend to get along well with other races and gain their trust with relative ease."
+      },
+      {
+        "name": "The Human Spirit",
+        "description": "The Human SpiritHumans are very adaptable, and get additional bonuses to all secondary stats from all sources."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Paladin",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Dwarf",
+    "type": "Core",
+    "intro": {
+      "title": "Resilient Explorers",
+      "body": "The bold and courageous dwarves are an ancient race descended from the earthen—beings of living stone created by the titans when the world was young. Due to a strange malady known as the Curse of Flesh, the dwarves’ earthen progenitors underwent a transformation that turned their rocky hides into soft skin. Ultimately, these creatures of flesh and blood dubbed themselves dwarves and carved out the mighty city of Ironforge in the snowy peaks of Khaz Modan."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/T5KAP7EJHE841456960608128.png",
+    "history": {
+      "title": "Dwarven History",
+      "body": "For many years, three dwarven clans—the Bronzebeards, the Wildhammers, and the Dark Irons—lived united in Ironforge under the wise rule of High King Modimus Anvilmar. When Modimus passed away, tensions boiled over among the clans, and war erupted for control of the city. Thus began the War of the Three Hammers, a savage conflict that raged for many years, during which time the Bronzebeard clan won sole ownership of Ironforge, severing relations among the other clans and expelling its rivals.\nRecently, however, a twist of fate has drawn the rival clans back to Ironforge after they’ve spent centuries apart….\n\nWhen freak natural disasters rocked Azeroth just prior to the Cataclysm, dwarven lands were not spared from calamity. A series of quakes tore through areas surrounding Ironforge, reducing settlements to rubble and taking the lives of many innocent dwarves. To glean answers as to the troubling state of the world, King Magni underwent a mystic ritual to commune with the earth. The ceremony, however, had an unexpected effect: Magni was transformed into diamond and became fused to the depths of Ironforge itself.\n\nIn the power vacuum that followed, his estranged daughter, Moira, who had married into the Dark Iron clan, briefly claimed Ironforge’s throne and effectively locked down the city. If not for the intervention of King Varian Wrynn of Stormwind and his son, Prince Anduin, her actions might have sparked another civil war. With Varian’s guidance, control of Ironforge has since been divided equally among the Bronzebeard, Wildhammer, and Dark Iron clans through the Council of Three Hammers. As the clans put aside their old quarrels and began working together, the council’s ability to govern as one shows promise.\nTransformed by the ritual, Magni returned, but not to claim his throne—he was given a new purpose, and so he left Ironforge to the care of the Council. Now acting as the Speaker, Magni guided Azeroth's greatest heroes when the Burning Legion invaded Azeroth, and again when the very planet cried for help after Sargeras plunged his sword in Silithus. While the fate of the world is uncertain, Magni—and all Dwarves—have vowed to protect Azeroth with their lives."
+    },
+    "zone": {
+      "name": "Dun Morogh",
+      "description": "Encircled by jagged mountain peaks, the snowy region of Dun Morogh has been the cultural heart of Ironforge’s dwarves for ages. Not long ago, quakes roused numerous troggs from their subterranean dwellings and drove the bestial creatures toward the dwarven settlement of Anvilmar in Coldridge Valley. The sudden influx of troggs also caused the savage Frostmane trolls to abandon their usual holdings on Shimmer Ridge and encroach upon dwarf-occupied areas. Threatened on two fronts, Dun Morogh’s mountaineers are spread thin. Without additional assistance, the prized lands of Dun Morogh might soon fall to the dwarves’ barbarous foes."
+    },
+    "city": {
+      "name": "Ironforge",
+      "description": "Carved into the stone heart of Khaz Modan, the mighty city of Ironforge is a testament to the dwarves’ strength and resilience. During the Second War between orcs and humans, many dwarven strongholds fell to the onslaught of the Horde, yet Ironforge was never breached. Now ruled over by the Council of Three Hammers, the city has entered into a tense and potentially violent era. Yet should the council rule with equality and justice, this new period in Ironforge’s history might very well be its greatest."
+    },
+    "mount": {
+      "name": "Ram",
+      "description": "Distinguished by their shaggy coats and massive horns, Barak Tor’ol mountain rams are simple yet proud animals whose fearlessness is matched only by that of their dwarven masters. What these good-natured animals lack in ferocity, they compensate with uncommon durability and strength. Recently, other types of rams have been discovered in the frigid continent of Northrend, yet the amicable species native to Dun Morogh and its surrounding regions is still preferred by Ironforge’s dwarves."
+    },
+    "traits": [
+      {
+        "name": "Explorer",
+        "description": "ExplorerDwarves receive a skill bonus to archaeology and are able to survey faster than other races."
+      },
+      {
+        "name": "Frost Resistance",
+        "description": "Frost ResistanceIronforge dwarves have a natural resistance to Frost magic."
+      },
+      {
+        "name": "Might of the Mountain",
+        "description": "Might of the MountainDwarves battle with powerful intent and gain a bonus to critical strikes."
+      },
+      {
+        "name": "Stoneform",
+        "description": "StoneformDwarves can temporarily turn to living stone, neutralizing ailments and reducing damage taken."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Paladin",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Night Elf",
+    "type": "Core",
+    "intro": {
+      "title": "Venerable Guardians",
+      "body": "The ancient and reclusive night elves have played a pivotal role in shaping Azeroth’s fate. The night elves of today still remember the War of the Ancients over ten thousand years ago, when they halted the Burning Legion’s first invasion of Azeroth. When the Legion’s remnants rallied together with the vile satyrs centuries later, the night elves again opposed the threat, ultimately vanquishing the forces that set out to wreak havoc on their world. "
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/kb_media/W4IG0VPIRVEY1456965516809.png",
+    "history": {
+      "title": "Night Elf History",
+      "body": "The Legion’s emergence had forever changed night elven society. Under the leadership of Tyrande Whisperwind and Malfurion Stormrage, they cultivated a peaceful civilization, and shunned the use of arcane magic, which had attracted the Legion to Azeroth.\nBut the night elves’ tranquility was shattered anew when the Legion and its terrifying undead Scourge launched a new invasion of Azeroth in the modern times--a conflict known as the Third War. The Night Elves fought alongside the Horde and Alliance to defeat the Legion, but their victory was only made possible through an explosion that damaged the blessed World Tree, which had long granted the night elves immortality and protection from aging and disease.\nAgainst Malfurion’s warnings, renegade druids created a new World Tree in hopes of restoring the night elves’ immortality. But this new World Tree eventually became tainted by a dark malady called the Emerald Nightmare, which the night elves were able to combat with Malfurion’s aid.\nAlthough the night elves still struggle to cope with the loss of immortality, the fate of Azeroth rests on their resilience and willingness to aid other races."
+    },
+    "zone": {
+      "name": "Teldrassil",
+      "description": "The loss of the first World Tree, Nordrassil, during the Third War ushered in a new era in night elven history—one in which this venerable race would no longer be immune to aging, disease, and frailty. As the night elves struggled to cope with their fate, Fandral Staghelm and a group of like-minded druids conspired to create a new World Tree that would restore the night elves’ cherished immortality. Through these druids’ efforts, Teldrassil was planted off the coast of northern Kalimdor, and the bulk of night elven society took up residence atop the new World Tree’s mighty boughs.\nTeldrassil, however, was not blessed by the Dragon Aspects as Nordrassil had been, and thus the new World Tree did not change the fact that the night elves were mortal. Even worse, the World Tree and its inhabitants began to manifest signs of an unnatural ailment, later revealed to have been caused by the Emerald Nightmare. Much to the night elves’ dismay, it was discovered that Fandral had fallen to the Nightmare’s influence and had allowed Teldrassil’s corruption to take hold. Ultimately, Fandral’s wayward schemes were thwarted by the powerful archdruid Malfurion Stormrage, and Teldrassil was cleansed. To punctuate the victory over the Nightmare, the Dragon Aspects Alexstrasza and Ysera blessed the tree to ensure its vitality in the years to come. Yet as great and noble as this blessing was, it did not restore the night elves’ immortality.\nOf late, Teldrassil’s recovery has slowed, and signs of the Nightmare’s corruption have resurfaced. Already burdened by political tension and the vast destruction unleashed by the Cataclysm, the night elves must now ascertain the cause of their beloved World Tree’s ailment and refocus their efforts on the dire situation facing Azeroth."
+    },
+    "city": {
+      "name": "Darnassus",
+      "description": "Atop the massive boughs of the second World Tree, Teldrassil, lies the wondrous city of Darnassus. The elegant bridges, beautiful groves, and leaf-covered pathways that dot the city’s landscape are testaments to the night elves’ reverence for nature. One of Darnassus’s most notable structures is the stunning Temple of the Moon, the center of worship for High Priestess Tyrande Whisperwind and her Sisters of Elune.\nDarnassus is home to night elves of all vocations, and the city has recently opened its doors to human refugees from Gilneas as well. Many of these embattled humans have contracted a strange curse that transforms them into feral wolf-beasts known as worgen. Although they’re usually reclusive, the night elves have allowed these outsiders into Darnassus because they know the perils of the Gilneans’ cursed state all too well: it was, in fact, a group of night elf druids that created Azeroth’s first worgen millennia ago. Despite the arrival of these new residents, Darnassus remains a symbol of the night elves’ rich culture and glorious history."
+    },
+    "mount": {
+      "name": "Nightsaber",
+      "description": "Nightsabers are considered to be among Kalimdor’s most vicious creatures. In ancient times, none of the continent’s denizens was safe from these agile beasts’ swift and ruthless attacks. The night elves saw great potential in the ferocious nightsabers, domesticating the species’ finest pedigrees to act as battle mounts. In particular, the highly trained Sentinels used them to great effect while patrolling the borders of night elven lands. To this day, nightsabers remain an invaluable part of the night elves’ culture as companions, hunters, and mounts."
+    },
+    "traits": [
+      {
+        "name": "Shadowmeld",
+        "description": "ShadowmeldNight Elves can slip into the shadows, awaiting for the right moment to strike."
+      },
+      {
+        "name": "Wisp Spirit",
+        "description": "Wisp SpiritFallen night elves assume the form of fleet wisp spirits."
+      },
+      {
+        "name": "Nature Resistance",
+        "description": "Nature ResistanceNight elves can resist Nature magic."
+      },
+      {
+        "name": "Quickness",
+        "description": "QuicknessThe nimble night elves have slightly increased movement speed as well as a minor chance to completely avoid being hit by physical attacks."
+      },
+      {
+        "name": "Touch of Elune",
+        "description": "Touch of EluneNight elves gain a unique benefit that changes between day and night time."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Monk",
+      "Druid",
+      "Demon Hunter",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Gnome",
+    "type": "Core",
+    "intro": {
+      "title": "Curious Tinkerers",
+      "body": "The clever, spunky, and oftentimes eccentric gnomes present a unique paradox among the civilized races of Azeroth. Brilliant inventors with an irrepressibly cheerful disposition, this race has suffered treachery, displacement, and near-genocide. It is their remarkable optimism in the face of such calamity that symbolizes the truly unshakable spirit of the gnomes.​"
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/0U4ESQ9HQJV51456962928780.png",
+    "history": {
+      "title": "Gnomish History",
+      "body": "The diminutive gnomes—renowned mechanics, engineers, technicians and tool-makers—have made their mark on Azeroth through the application of a collective intelligence and ambition overshadowing that of their larger peers.\n\nAlthough little is known concerning gnomish history previous to the Second War, much of gnomish philosophy and recorded knowledge is focused on forward-thinking, inventive concepts. However, recent developments have uncovered evidence that they originated from titan creations; mechanical helpers that were afflicted with the Curse of Flesh, becoming the gnomes of today.\n\nIt wasn’t until their discovery by the dwarves centuries later that gnomes were recognized as a viable and important race. The dwarves were impressed with the ingenuity and quickness of their smaller “kin” (for they had also been titan-forged and similarly cursed), and they assisted the gnomes in constructing a capital city, Gnomeregan, in the foothills of Dun Morogh near the dwarves’ own capital of Ironforge. From their wondrous techno-city, gnomes provided invaluable support in weaponry, vehicles, and energetic troops to the Alliance of dwarves, humans, and high elves.\n\nBut when the Burning Legion invaded during the Third War, the gnomes strangely refused to send aid to their allies. It wasn’t until the war had ended that the Alliance learned the reason for the gnomes’ withdrawal; an ancient menace had risen from the bowels of Azeroth to strike at Gnomeregan. Knowing that their allies’ priority was defeating the Burning Legion, the gnomes decided to make their stand alone. Though they fought valiantly to save their beloved city, Gnomeregan was lost.\n\nMost of the gnome race was wiped out during the fall of Gnomeregan; some say that as much as 80 percent of Azeroth’s gnomes died during those horrible days. The few survivors fled and established New Tinkertown, where they quietly went about rebuilding their forces, healing their wounds, and preparing to retake Gnomeregan."
+    },
+    "zone": {
+      "name": "Gnomeregan",
+      "description": "In the ongoing effort to reclaim Gnomeregan from Sicco Thermaplugg and his twisted cohorts, the gnomes have carved out a tenuous foothold in New Tinkertown, near the techno-city’s gates. Although work is now under way to retrieve and decontaminate irradiated survivors from Gnomeregan itself, another battle has ignited in Dun Morogh against one of Thermaplugg’s henchmen, Razlo Crushcog. The perils of Gnomeregan are many, but the gnomes and their ingenious leader, High Tinker Mekkatorque, are resolute in facing any threat—be it trogg, toxic sludge, or sentry-bot—to take back their beloved gnomeland. To that end, neutralizing Crushcog before he can further disrupt Gnomeregan’s liberation has become pivotal to achieving victory."
+    },
+    "city": {
+      "name": "Gnomeregan",
+      "description": "A technical marvel, the subterranean city of Gnomeregan is wrought-iron evidence of gnomish brilliance, ambition, and ingenuity. It was carved into the stony foothills of Dun Morogh, and winds deep into the heart of the land. Currently a battleground between the founding gnomes and the traitor Sicco Thermaplugg, the once-gleaming metal hallways of this labyrinthine city are slowly being retaken."
+    },
+    "mount": {
+      "name": "Mechanostrider",
+      "description": "The gnomes’ revolutionary mechanostrider is yet another marvel of their engineering prowess. Each strider is specifically designed with the individual rider in mind. Mechanostriders are constructed using state-of-the-art steam compression, servo-motor dynamics, and duro-steel plating, offering the rider a reliable and durable means of transportation. Some claim that the mechanostrider’s lack of true sentience makes for a very dumb mount. However, gnomes counter that, under a skilled rider, the mechanostrider is more responsive than even the best-trained live mount."
+    },
+    "traits": [
+      {
+        "name": "Escape Artist",
+        "description": "Escape ArtistGnomes are small and nimble, which allows them to extricate themselves from even the most cunning traps."
+      },
+      {
+        "name": "Arcane Resistance",
+        "description": "Arcane ResistanceGnomes have a natural resistance to Arcane magic."
+      },
+      {
+        "name": "Expansive Mind",
+        "description": "Expansive MindCurious, creative, and brilliant, gnomes receive a small bonus to their resource pool."
+      },
+      {
+        "name": "Engineering Specialization",
+        "description": "Engineering SpecializationTheir expertise with gizmos, gadgets, and gimmicks provides gnomes with a skill bonus to engineering."
+      },
+      {
+        "name": "Nimble Fingers",
+        "description": "Nimble FingersGnomes, while diminutive in stature, are dangerously quick."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Draenei",
+    "type": "Core",
+    "intro": {
+      "title": "Spiritual Exiles",
+      "body": "Long before the fallen titan Sargeras unleashed the Legion on Azeroth, he conquered the world of Argus and its inhabitants, the eredar. Believing that this gifted race would be crucial in his quest to undo all of creation, Sargeras contacted the eredar’s leaders – Kil’jaeden, Archimonde, and Velen, offering them knowledge and power in exchange for their loyalty."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/PSKQBBDL6OLP1456966527016.png",
+    "history": {
+      "title": "Draenei History",
+      "body": "Only Velen abstained, for he had seen a vision. In it, his people were transformed into demons; members of Sargeras’ Burning Legion, a growing army of unspeakable evil. With the aid of the benevolent naaru, Velen gathered like-minded eredar and escaped Argus. These renegades would call themselves the draenei, or “exiled ones.”\nKil’jaeden, infuriated by the draenei’s flight from Argus and their refusal of Sargeras’ offer, led the Legion’s armies in pursuit of his former people throughout the cosmos. But the draenei eluded their hunters, discovering sanctuary on a remote world that they would name Draenor. There, the draenei developed an extraordinary society and coexisted peacefully with the shamanistic orcs native to the planet Draenor.\nKil’jaeden eventually found Draenor and corrupted the noble orcs into a single, bloodthirsty force: the Horde. Blinded by rage, the Horde slaughtered most of the draenei race and forced any survivors into hiding. After being exposed to fel energies wielded by orc warlocks, many draenei were mutated into physically deteriorated forms known as the Krokul, or “Broken,”. Years later, the shaman Ner’zhul opened magical portals throughout Draenor, and the resulting energies shattered the dying world.\nWhat remained of Draenor—henceforth known as Outland—devolved into a battleground among the Burning Legion and other factions vying for control of the ruined landscape. To escape the chaos, Velen and a number of his followers commandeered a dimensional fortressnamed the Exodar. In search of new allies, the draenei left Outland.\nHowever, the blood elves had sabotaged the Exodar’s engines, and the draenei ultimately crash-landed on the world of Azeroth, where they pledged their loyalty to the Alliance. Together with their new allies, Velen and his refugees returned to Outland and defeated their demonic rivals. But Velen had another vision: a coming war between the forces of light and darkness. The draenei now prepare to defend their new home, Azeroth, against a shadow they believe is fast approaching."
+    },
+    "zone": {
+      "name": "Azuremyst Isle",
+      "description": "Located off of the coast of northern Kalimdor, Azuremyst Isle is home to the draenei, refugees who fled Outland aboard the massive dimensional vessel named the Exodar. When the draenei crashed on Azeroth, powerful crystals from their vessel were scattered about Azuremyst Isle, mutating flora and fauna near the debris. Following the ill-fated landing, the draenei worked feverishly to find survivors and mend any damages inflicted on the isle due to their disastrous arrival. The draenei have since taken to the isle and established the remains of the Exodar as their base of power. Having suffered a long and arduous history of exile, the draenei are now resolved to give their lives in defense of Azuremyst Isle."
+    },
+    "city": {
+      "name": "The Exodar",
+      "description": "Once a satellite structure of the mighty Tempest Keep, the dimensional craft known as the Exodar was used by a group of draenei to escape their perilous home on Outland. After departing the shattered draenei world, the Exodar appeared above northern Kalimdor when a spectacular explosion ripped open the skies. The great vessel impacted on the shores of Azuremyst Isle, which has since become home to Outland’s refugee draenei. Following their dramatic landing, the draenei have utilized the remains of the Exodar to great effect, transforming it into a base of operations for their dealings on Azeroth."
+    },
+    "mount": {
+      "name": "Elekk",
+      "description": "The recent influx of different races to Outland, particularly the ethereals, has resulted in increased hunting of the native elekk of Nagrand for their prized tusks. Yet in addition to being seen as game, these massive beasts are also valued for their ability to act as mounts. When the draenei fled Outland aboard the Exodar, they carried with them a number of species, including tamed elekk. Upon landing on Azeroth, these tusked-creatures played a large role in helping the draenei establish themselves on their strange new home. While much of Azeroth’s own native wildlife has served other races as trustworthy mounts, the draenei still prefer the hearty and unyielding elekk above all else."
+    },
+    "traits": [
+      {
+        "name": "Gift of the Naaru",
+        "description": "Gift of the NaaruThe draenei are blessed with a healing ability that can restore their health and that of their allies."
+      },
+      {
+        "name": "Heroic Presence",
+        "description": "Heroic PresenceConfident and strong, draenei receive a slight bonus to their main stat."
+      },
+      {
+        "name": "Shadow Resistance",
+        "description": "Shadow ResistanceDraenei have a natural resistance to Shadow magic."
+      },
+      {
+        "name": "Gemcutting",
+        "description": "GemcuttingThe talented draenei receive a bonus to their jewelcrafting skill"
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Paladin",
+      "Hunter",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Worgen",
+    "type": "Core",
+    "intro": {
+      "title": "Cursed Recluses",
+      "body": "Behind the formidable Greymane Wall, a terrible curse transformed some of the stalwart citizens of the isolated kingdom of Gilneas into nightmarish lupine beasts known as worgen. Human scholars intensely debated the origins of the curse, until it was revealed that the original worgen were not—as previously believed—nightmares from another dimension, but cursed night elf druids."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/5e/5ERDH2X5YNU41457029518361.png",
+    "history": {
+      "title": "Worgen History",
+      "body": "Long ago, amid a brutal war between the night elves and the demonic satyrs in Kalimdor, a group of druids practiced the ability to transform into a powerful yet unwieldy form that embodied the fury of the wolf Ancient, Goldrinn. Taught by Ralaar Fangfire, these Druids of the Pack sought to use the Scythe of Elune, a mystical artifact, to temper the uncontrollable rage inherent in their chosen form.\nRather than abate the druids’ fury, however, the Scythe transformed Ralaar and his followers into worgen: bestial humanoids enslaved by their own primal instincts.\nRalaar’s druids tore through friend and foe alike. Night elves wounded by the beasts contracted a virulent curse that turned them into worgen as well. Desperate to staunch the affliction’s spread, Archdruid Malfurion Stormrage banished the worgen to a part of the Emerald Dream—Azeroth’s spirit world—where they would be in peaceful slumber for all eternity.\nThe worgen threat was contained for millennia, until Archmage Arugal pulled the wolf-beasts from the Dream. Summoned by order of King Genn Greymane, the worgen battled Scourge forces encroaching on the kingdom of Gilneas. Yet the feral creatures soon spread their curse throughout the human population, infecting Gilnean soldiers stationed beyond the Greymane Wall.\nThe night elves, feeling responsible for the creation of the curse and the destruction it caused, agreed to help the Gilneans. With the Scythe of Elune, the night elves could not permanently cure the affliction, but managed to teach the Gilneans how to control their curse; shapeshifting at will from human to worgen, and back again. Now, these self-disciplined worgen have rejoined the Alliance as powerful allies, prepared to fight to keep their humanity and their place in society."
+    },
+    "zone": {
+      "name": "Gilneas",
+      "description": "For many years, the nation of Gilneas existed in isolation behind the colossal Greymane Wall. Free from outside influence, the kingdom relied on the indomitable spirit and tenacity of its citizens to make its own destiny in the world. Of late, however, a series of events has shaken Gilneas to its core. While the nation struggles to recover from a past civil war, a devastating worgen curse has spread throughout Gilneas, turning some of its inhabitants into ferocious beasts."
+    },
+    "city": {
+      "name": "Gilneas City",
+      "description": "Recently these savage worgen have launched a surprise assault against the kingdom’s fortified capital, Gilneas City. The uninfected citizenry have taken up arms in defense of their home and are now battling the worgen throughout the city’s winding cobblestone streets and narrow alleyways. Yet with no signs of relenting, the worgen threat has raised fears that perhaps the days of Gilneas surviving on its own have come to an end"
+    },
+    "mount": {
+      "name": "Running Wild",
+      "description": "Due to their ties with the wilds, worgen are able to call upon their bestial fervor to travel great distances. With the aid of all four limbs, a worgen can sprint at speeds rivaling the swiftest horses, nightsabers, and mechanostriders. As though it satisfies some primal urge deep within, worgen relish this mode of travel over those used by Azeroth’s other races, who rely on mounts to transport them."
+    },
+    "traits": [
+      {
+        "name": "Running Wild",
+        "description": "Running WildDrop to all fours to run as fast as a wild animal. Who needs a mount when you can run?"
+      },
+      {
+        "name": "Aberration",
+        "description": "AberrationWorgen have a natural resistance to Shadow and Nature damage."
+      },
+      {
+        "name": "Darkflight",
+        "description": "DarkflightActivate your true form, drastically increasing movement speed for a short time."
+      },
+      {
+        "name": "Flayer",
+        "description": "FlayerWorgen claws are extremely sharp and can skin a slain beast rapidly."
+      },
+      {
+        "name": "Viciousness",
+        "description": "ViciousnessWorgen fight with the ferocity of an apex predator and have an increased chance to hit with critical strikes."
+      },
+      {
+        "name": "Two Forms",
+        "description": "Two FormsWorgen can shift in and out of Human form while not in combat."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Warlock",
+      "Druid",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Both",
+    "name": "Pandaren",
+    "type": "Core",
+    "intro": {
+      "title": "Harmonious Nomads",
+      "body": "Couched in myth and legend, rarely seen and even more rarely understood, the enigmatic pandaren have long been a mystery to the other races of Azeroth. The noble history of the pandaren people stretches back thousands of years, well before the empires of man and before even the sundering of the world."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/F4YCSC8RX7ZT1456969333484.png",
+    "history": {
+      "title": "Pandaren History",
+      "body": "Denizens of a wondrous and fertile land, the pandaren once labored under the oppressive thumb of a monstrous race of ancient warlords known as the mogu. Through tenacity, diplomacy, and a unique form of unarmed combat, the pandaren staged a successful revolution that deposed the mogu and established a pandaren empire that would prosper for thousands of years.\nHonorable and filled with a love of good company, good food--and every now and then, a good friendly brawl--the pandaren have been content to live in seclusion, allowing their culture to flourish and thrive away from the influence of the outside world. However, every now and then, a pandaren is born with a thirst for adventure that rivals his or her thirst for a strong drink, and he or she strikes out to explore beyond Pandaria’s shores.\nOne of the most famous such wanderers was the brewmaster Chen Stormstout, who set out looking for exotic ingredients for his special ale and wound up an integral part of the founding of the Horde.\nDuring the bleak days that preceded the sundering of the world, when demons flooded onto Azeroth and threw the entirety of the mortal realm into jeopardy, the last Emperor of the pandaren discovered a way to protect his land from the devastation. His deal with fate shrouded his land within an impenetrable mist for ten thousand years, but the nature of his transaction has left Pandaria haunted ever since. Now, while some pandaren align themselves with the Horde and others with the Alliance, they all venture out to heal the world beyond their homeland."
+    },
+    "zone": {
+      "name": "The Wandering Isle",
+      "description": "It is the rare pandaren indeed who sought a way beyond the mists of Pandaria. Generations ago, pandaren explorers began to gather on the back of a giant turtle: Shen-zin Su. This great sea turtle roamed Azeroth's oceans for hundreds of years, eventually losing contact with their mist-shrouded homeland.\nHere on the “Wandering Isle” young, eager pandaren train and learn, engaging in mock combat against one another and mastering the tools and forms of martial arts.\nWhen Shen-zin Su travels near the Maelstrom, life on the Wandering Isle—once pacific and enlightening—is cast into crisis. The ground becomes unstable and Shen-zin Su’s very life is threatened as the great turtle drifts into an unsteady pattern which may be a death spiral.\nAs one of the most promising pandaren wanderers, you must uncover the true threat to the Wandering Isle. But the problem facing the great turtle has several potential solutions, and the students of the isle are split on how to handle it. Your decision will shape the future, and mark the path of the pandaren in a changed world."
+    },
+    "city": null,
+    "mount": {
+      "name": "Dragon Turtle",
+      "description": "The pandaren have long sought mounts that embody their values: patience and strength. With a naturally armored hide, even gait (no matter how heavy the passenger), and the relaxed attitude that welcomes long journeys, the Dragon Turtle is perfect for the pandaren adventurer. Indigenous to mainland Pandaria, these fine steeds are easily outfitted with the essentials: maps, cushions, footstools, and brew-storage. Comfortable and hardy, the dragon turtle’s slow, even stride will gently ease passengers into new parts of the world and/or a relaxing nap time."
+    },
+    "traits": [
+      {
+        "name": "Faction Neutral",
+        "description": "Faction NeutralPandaren may choose to align with either the Alliance or the Horde."
+      },
+      {
+        "name": "Epicurean",
+        "description": "EpicureanYour love of food allows you to receive additional stats from eating specialized food."
+      },
+      {
+        "name": "Gourmand",
+        "description": "GourmandPandaren are excellent cooks, and receive a slight increase to their cooking skill."
+      },
+      {
+        "name": "Inner Peace",
+        "description": "Inner PeaceYour rested experience bonus lasts twice as long."
+      },
+      {
+        "name": "Bouncy",
+        "description": "BouncyPandaren take less falling damage than other races."
+      },
+      {
+        "name": "Quaking Palm",
+        "description": "Quaking PalmStrikes the target with lightning speed, incapacitating them for a short duration."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Orc",
+    "type": "Core",
+    "intro": {
+      "title": "Fierce Conquerors",
+      "body": "Unlike the other races of the Horde, orcs are not native to Azeroth. Initially, they lived as shamanic clans on the lush world of Draenor. They abandoned their peaceful culture when Kil’jaeden, a demon lord of the Burning Legion, corrupted the orcs and used them in his vengeful plot against the draenei, who were exiles from Kil’jaeden’s homeworld."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/7906ALSAUXNU1456972103871.png",
+    "history": {
+      "title": "Orc History",
+      "body": "Kil’jaeden’s plan worked. The orcs drank the blood of Mannoroth—a prominent Burning Legion general—infusing them with power and enslaving them to the Legion. Exposure to fel energies turned their naturally brown skin into a sickly green. Under the demon’s influence, the orcs killed off most of the draenei population, but Kil’jaeden would not stop there.\nWith the orcs at their disposal, the Burning Legion planned to invade Azeroth once again. To this end, the corrupted human archmage Medivh conspired with the orc warlock Gul’dan to build the Dark Portal, a massive structure that would allow the orcs passage to Azeroth.\nArriving in Azeroth, the seemingly unstoppable orc armies, known as the Horde, crushed the human kingdom of Stormwind. Eventually, however, the humans made a last stand and were able to defeat the Horde and enslave most of the survivors. But a young slave named Thrall, together with Warchief Orgrim Doomhammer, fought to free the captive orcs. Orgrim died in battle, and the title of warchief, as well as Orgrim’s weapon, the Doomhammer, was passed onto Thrall. Thrall led his people to Kalimdor, where his friend and mentor, Grommash Hellscream, gave his life to defeat Mannoroth and forever free the orcs from the Legion’s control.\nYears later, Thrall returned to Draenor, now known as Outland, to once again stop the Legion. There, he convinced Garrosh, son of Grommash Hellscream, to join the Horde. Thrall believed that Garrosh would be a clear choice for his successor, but as he learned eventually, the orcs would need more than a lone leader figure to endure. After years of long wars and bloodshed, Thrall and the orcs of Orgrimmar ultimately found a new way to rule—the creation of a council in which all members of the Horde have equal representation—and are once more hopeful for their future on Azeroth."
+    },
+    "zone": {
+      "name": "Durotar",
+      "description": "The dry, harsh land of Durotar is home to some of the toughest creatures on Azeroth. Unwary travelers may fall prey to venomous scorpids, ferocious crocolisks, or angry quilboar. Thrall chose to settle this inhospitable area after the Third War as penance for the orcs’ past transgressions. He named the land after his father, Durotan, former chieftain of the Frostwolf clan. Following the Cataclysm, many of the orcish settlements were flooded or destroyed, and the Northwatch soldiers at Tiragarde Keep have become more aggressive than ever. As relations worsen between the Alliance and the Horde, it is essential that the orcs contain these threats swiftly to ensure the survival of their people."
+    },
+    "city": {
+      "name": "Orgrimmar",
+      "description": "Named for the former Horde warchief Orgrim Doomhammer, this capital was rapidly constructed when the orcs first settled in Durotar. Garrosh Hellscream has recently rebuilt most of the city’s architecture, and now Orgrimmar’s fortresses rank among the most imposing on Azeroth. Spiked metal towers line the city’s streets, and the red-and-black banners of the Horde wave from every post. Most of the various races have separated into their own districts, from the tauren in the Valley of Wisdom to the trolls in the Valley of Spirits. Grommash Hold towers over all else, allowing Garrosh Hellscream to keep a close watch on his people."
+    },
+    "mount": {
+      "name": "Wolf",
+      "description": "Long ago, the orcs tamed the large and swift wolves of Draenor. These massive canines came to be the orcs’ chosen companions as well as their favored method of transportation. The wolves’ unflinching temperament made them especially well-suited for battling large prey. When the orcs became more warlike and invaded Azeroth, their wolves were bred for size and stamina so they could bear armored riders into battle. Dire wolves remain the favored mounts for orc fighters and can be purchased in the Valley of Honor in Orgrimmar."
+    },
+    "traits": [
+      {
+        "name": "Blood Fury",
+        "description": "Blood FuryOrcs can fly into a rage that increases their attack power or intellect (based on class) for a short time."
+      },
+      {
+        "name": "Hardiness",
+        "description": "HardinessRugged by nature, orcs recover from stun effects more quickly than other races."
+      },
+      {
+        "name": "Command",
+        "description": "CommandOrcs work well with combat pets, which receive a bonus to damage output under their care."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Shaman",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Undead",
+    "type": "Core",
+    "intro": {
+      "title": "Cadaverous Endurers",
+      "body": "Death offered no escape for the scores of humans killed during the Lich King’s campaign to scour the living from Lordaeron. Instead, the kingdom’s fallen were risen into undeath as Scourge minions and forced to wage an unholy war against everything… and everyone… that they once held dear."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/NNGEJKG7M8NF1456780121814.png",
+    "history": {
+      "title": "Forsaken History",
+      "body": "When the Lich King’s grasp on his vast armies faltered after the Third War, a contingent of undead broke free of their master’s iron will. This freedom seemed like a blessing, but the former humans were soon tormented by memories of the horrors they had committed as mindless Scourge. Those who did not descend into madness faced a chilling realization: the entirety of Azeroth sought their destruction.\nIn their darkest hour, the renegade undead were rallied by Sylvanas Windrunner, former Ranger-General of Quel’thalas, who had also regained her freedom from the Lich King. Under their new queen’s guidance, the independent undead—known as Forsaken—established the Undercity beneath the ruins of Lordaeron.\nTo further her own goals and protect her budding nation, Sylvanas set out to forge alliances. Chief among these were the tauren of Thunder Bluff, who saw the potential for redemption in the Forsaken. Thus, the tauren convinced then-Warchief Thrall to forge an alliance of convenience between the Forsaken and the Horde. The Forsaken assisted the Horde with a massive offensive against the Lich King and exacted vengeance upon their hated enemy.\nThe victory came at great cost; Grand Apothecary Putress betrayed the Forsaken, unleashing a new plague that decimated friend and foe alike, while the dreadlord Varimathras seized the Undercity in a coup that nearly killed Sylvanas. The usurpers were eventually slain and the Forsaken capital was restored, but the debacle created suspicion among the Horde regarding Sylvanas’ ability to lead and ensure the loyalty of the Forsaken.\nYet the Forsaken’s allegiance was proven anew when Sylvanas aided the Horde in freeing Orgrimmar from the control of Warchief Garrosh Hellscream, who sought to enslave the other races under orcish supremacy. Now, these free-willed undead fortify their holdings around the Undercity as they ready themselves for the deadly future they believe is inevitable."
+    },
+    "zone": {
+      "name": "Tirisfal Glades",
+      "description": "Once the heart of Lordaeron, Tirisfal Glades was a land of beautiful rolling hills and golden pastures. When the human kingdom fell to the undead Scourge, this verdant region was transformed into a plagued wasteland, barely able to sustain the dwindling remnants of life that still existed."
+    },
+    "city": {
+      "name": "The Undercity",
+      "description": "During the Third War, the once-glorious capital of Lordaeron, Capital City, was decimated by a Scourge army under the command of Prince Arthas Menethil. When the undead continued their campaign against the living throughout the continent, only a small contingent of Arthas’ forces were left behind to carve out a new “Undercity” beneath the ruined capital. Yet these plans were abandoned when Arthas departed for Northrend in order to aid his master, the Lich King.\nYears later, Queen Sylvanas and her renegade undead, known as the Forsaken, claimed the Undercity as their own and completed the winding network of catacombs and crypts that the Scourge had begun constructing. Apart from being momentarily seized by the traitorous Forsaken Grand Apothecary Putress and the dreadlord Varimathras, the Undercity has remained in firm control of Sylvanas ever since. Today, rivers of poisonous sludge flow through all avenues of the vast Undercity. The toxic fumes and fetid odors permeating every corner of the stronghold have made it a place almost unbearable for the living members of the Horde. Yet for Sylvanas and her cursed followers, the Undercity has become a much-needed refuge in a world where her kind is still feared and hunted."
+    },
+    "mount": {
+      "name": "Skeletal Horse",
+      "description": "When the Lich King’s plague of undeath swept through Lordaeron, it decimated more than just the kingdom’s human population. Many of the noble horses living in the region also succumbed to the affliction, and much like their human counterparts, they were not granted peace in death."
+    },
+    "traits": [
+      {
+        "name": "Will of the Forsaken",
+        "description": "Will of the ForsakenThe Forsaken can shake off any charm, fear and sleep effects at will."
+      },
+      {
+        "name": "Shadow Resistance",
+        "description": "Shadow ResistanceThe Forsaken have a natural resistance to Shadow magic."
+      },
+      {
+        "name": "Cannibalize",
+        "description": "CannibalizeOne rather grisly means for the Forsaken to replenish their health is by consuming dead bodies."
+      },
+      {
+        "name": "Touch of the Grave",
+        "description": "Touch of the GraveThe Forsaken can sometimes drain the life from their enemies and use it to repair their own bodies."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Tauren",
+    "type": "Core",
+    "intro": {
+      "title": "Honorable Conservationists",
+      "body": "The peaceful tauren—known in their own tongue as the shu’halo—have long dwelled in Kalimdor, striving to preserve the balance of nature at the behest of their goddess, the Earth Mother. Until recently, the tauren lived as nomads scattered throughout the Barrens, hunting the great kodo beasts native to the arid region."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/GPVG2CDVZDFL1456946255274.png",
+    "history": {
+      "title": "Tauren History",
+      "body": "During the Third War, the mighty tauren chieftain Cairne Bloodhoof had a chance encounter with the orcish Horde that explored Kalimdor. After befriending Warchief Thrall, Cairne and his tribe were able to fend off their enemies while they made a new home in Mulgore; the city of Thunder Bluff. Owing a debt to the orcs for their assistance, the tauren joined Thrall on Mount Hyjal to defend Kalimdor from the demons of the Burning Legion.\nFor years the tauren flourished throughout Mulgore, but tragedy befell them following the campaign against the Lich King in Northrend. Believing that the reckless new warchief, Garrosh Hellscream, would lead the Horde to ruin, Cairne challenged the young orc to a duel. The tauren chieftain clearly had the upper hand...\nHowever, unbeknownst to either of the duel’s combatants, Magatha Grimtotem, a tauren matriarch who harbored great contempt for Cairne, had poisoned Garrosh’s blade. The poison paralyzed Cairne, and Garrosh was able to slay him.\nMagatha’s followers then stormed Thunder Bluff in an attempt to seize it. However, Baine, Cairne’s son, managed to launch a counterattack and retake the tauren capital, banishing Magatha and her followers from tauren lands. Despite the deadly encounter between Cairne and Garrosh, the tauren have not abandoned the Horde. Baine bravely took up the mantle of tauren leadership, and the Highmountain tauren have established a foothold on the growing Legion corruption near the Broken Isles."
+    },
+    "zone": {
+      "name": "Mulgore",
+      "description": "After settling in the grasslands of Mulgore, the mighty tauren established the stunning capital of Thunder Bluff. For years afterward the tauren lived amid central Kalimdor’s serene plains, tending to the well-being of their beloved new home. Yet the recent Cataclysm has had disastrous effects on Mulgore. Driven from their dens south of Thunder Bluff, the barbaric quilboar have swarmed across Red Cloud Mesa, encroaching on Camp Narache. Apart from taking numerous tauren captive, the quilboar have caused giant thorned roots to burst from the ground, choking all life from the once-verdant plains. In light of this, the tauren have vowed to drive away the savage creatures and heal the wounds inflicted upon the land before the damage becomes irreparable."
+    },
+    "city": {
+      "name": "Thunder Bluff",
+      "description": "Established by the wise chieftain Cairne Bloodhoof and his stalwart tribe, Thunder Bluff overlooks the verdant land of Mulgore from atop a series of windswept mesas. Prior to the construction of the capital, the tauren had lived as nomads for countless generations, often under attack by marauding bands of centaur. With Thunder Bluff’s founding, however, the proud and good-spirited race was finally granted a permanent home.\nFollowing Cairne’s death in a duel with Warchief Garrosh Hellscream, Thunder Bluff was briefly seized in a coup by Magatha Grimtotem and elements of her tribe. In retaliation, Cairne’s son, Baine, launched a brilliant counterattack using a fleet of zeppelins. After he strategically divided Magatha’s forces, Baine recaptured Thunder Bluff and assumed his role as the high chieftain of the tauren. Having recovered from the recent unrest, the capital is once again a bastion of peace and security for Kalimdor’s tauren."
+    },
+    "mount": {
+      "name": "Kodo",
+      "description": "Tauren legends abound regarding the great horned kodos of Kalimdor’s Barrens. Some myths tell of rare kodos that are bound to the spirits of the sky and storm, thus allowing the colossal beasts to harness the powers of lightning itself. While kodos are generally considered gentle by nature, they are fierce opponents when threatened and have occasionally been known to devour their enemies whole."
+    },
+    "traits": [
+      {
+        "name": "Brawn",
+        "description": "BrawnTauren are large, able-bodied warriors and gain a bonus to critical strikes."
+      },
+      {
+        "name": "Cultivation",
+        "description": "CultivationTauren receive a skill bonus to herbalism, and they gather herbs faster than most herbalists."
+      },
+      {
+        "name": "Endurance",
+        "description": "EnduranceTheir exceptional constitution grants the tauren a bonus to their base health."
+      },
+      {
+        "name": "Nature Resistance",
+        "description": "Nature ResistanceTauren are resistant to Nature magic."
+      },
+      {
+        "name": "War Stomp",
+        "description": "War StompShaking the ground with a mighty stomp of their hooves, tauren can briefly stun enemies."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Paladin",
+      "Hunter",
+      "Priest",
+      "Shaman",
+      "Monk",
+      "Druid",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Troll",
+    "type": "Core",
+    "intro": {
+      "title": "Mystical Conspirators",
+      "body": "The savage trolls of Azeroth are infamous for their cruelty, dark mysticism, and seething hatred for all other races. Yet one exception among the trolls is the Darkspear tribe. Plagued by a history of subservience and exile, this proud tribe was on the brink of extinction when Warchief Thrall and his mighty Horde forces were driven to the trolls’ remote island home in the South Seas during a violent storm."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/FW8RYBO5S5NI1456973046393.png",
+    "history": {
+      "title": "Troll History",
+      "body": "The Darkspear trolls, led by wise Sen'jin, abandoned their prejudices and bravely fought side by side with the Horde to defeat a group of humans encroaching on their jungle isle. However, the Darkspears were soon driven from the island by a frenzied band of murlocs intent on appeasing a mysterious sea witch. In the frenzy, Sen’jin was slain.\nThrall welcomed the Darkspears into the Horde and gave them a new home along the coastline of Durotar; the Echo Isles. But misfortune struck again; the witch doctor Zalazane betrayed his fellow tribespeople, enslaving them as mindless servants and forcing the Darkspears to fight for their new home.  Following the Horde’s victory against the Lich King in Northrend, Vol’jin allied with the ancestral loa—powerful spirits worshipped by the trolls—and secured victory over the Echo Isles.\nWhen the brash orc Garrosh was named warchief and openly showed his disdain for the Darkspear, many disillusioned trolls abandoned the Horde capital, Orgrimmar. Garrosh’s betrayals and crimes against the other Horde races led to his deposition at the hands of Thrall, who named Vol’jin as the new warchief. \nVol’jin’s reign as warchief was marked by conflict. In the aftermath of Garrosh's deposition, the treacherous orc colluded with a rogue member of the Bronze Dragonflight to open a portal to a past Draenor, where he helped a newly forming Iron Horde stage an assault on Azeroth. Vol'jin led the Darkspear and the Horde through the Dark Portal, ending this threat.\nUnbeknownst to them, the warlock Gul'dan escaped to Azeroth, intent on opening the ancient Tomb of Sargeras to allow the Burning Legion to invade Azeroth. At the brutal Battle for Broken Shore, Vol'jin was mortally wounded. Though he was hailed as a hero, his loss was a terrible blow to the Darkspear. Since Vol’jin’s death, the trolls’ deserved place within the Horde has only strengthened, and they stand ready to face anything that might threaten it."
+    },
+    "zone": {
+      "name": "Echo Isles",
+      "description": "The Echo Isles are a small cluster of tropical landmasses located near the arid coast of Durotar. In addition to being the home of the Darkspear trolls, the archipelago teems with raptors, tigers, and other dangerous predators. Yet the hostile wildlife is the least of the tribe’s worries. Although the Darkspears have liberated the Echo Isles from Zalazane, a mysterious sea witch has recently appeared and begun using her dark sorcery to destroy the trolls’ way of life. Additionally, naga have overtaken territory just north of Darkspear Isle, the seat of power for the tribe. Having been exiles throughout their history, the Darkspears are prepared to make any sacrifice in order to protect their home. Even now, a new generation of fearless trolls is training on Darkspear Isle, ready to give its lives for the future of the tribe."
+    },
+    "city": {
+      "name": "Darkspear Isle",
+      "description": "Ever since defeating the traitorous witch doctor Zalazane, the Darkspear tribe has worked tirelessly to fortify their home on Darkspear Isle. Covered in a network of huts and bridges, this jungle island has become a symbol of the tribe’s glory, albeit at a time when the trolls’ destiny remains uncertain due to the shocking loss of their leader, Vol'jin. Regardless, the Darkspear tribe has vowed to stand firm and face whatever challenges lie ahead."
+    },
+    "mount": {
+      "name": "Raptor",
+      "description": "The ferocity of Kalimdor’s raptors has enthralled the Darkspear trolls ever since their arrival on the Echo Isles years ago. The tribe considers a raptor to be the purest embodiment of the hunter’s essence, and as such, a tamed reptilian is prized as a mount. Skilled Darkspear riders have even been known to channel their raptors’ savagery to suit their will. Possession of these predators is also one of the most auspicious signs of status among trolls; many have died trying to subdue these swift and deadly raptors, and to control one indicates great station."
+    },
+    "traits": [
+      {
+        "name": "Berserking",
+        "description": "BerserkingTrolls can launch themselves into a frenzy, and get increased Haste temporarily."
+      },
+      {
+        "name": "Da Voodoo Shuffle",
+        "description": "Da Voodoo ShuffleThanks to their impressive legerity, trolls are less affected by movement impairing effects."
+      },
+      {
+        "name": "Regeneration",
+        "description": "RegenerationTrolls have a natural healing factor that constantly replenishes their health."
+      },
+      {
+        "name": "Beast Slaying",
+        "description": "Beast SlayingTrolls hunt with a keen awareness and gain additional experience from killing beasts."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Druid",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Blood Elf",
+    "type": "Core",
+    "intro": {
+      "title": "Vengeful Outsiders",
+      "body": "For nearly 7,000 years, high elven society centered on the sacred Sunwell, a magical fount that was created using a vial of pure arcane energy from the first Well of Eternity. Nourished and strengthened by the Sunwell’s potent energies, the high elves’ enchanted kingdom of Quel’Thalas prospered within the verdant forests north of Lordaeron."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/SKL2TITZJMJZ1456960924668.png",
+    "history": {
+      "title": "Blood Elf History",
+      "body": "During the Third War, however, the high elves were nearly scoured from Azeroth. Led by the death knight Arthas, a Scourge army stormed into Quel’Thalas, slaughtering almost ninety percent of the kingdom’s population. Arthas then used the mystical Sunwell to resurrect the fallen necromancer Kel’Thuzad, irrevocably tainting the fount in the process.\nFearing that the befouled well would obliterate his dwindling race, Prince Kael’thas Sunstrider gathered a group of Quel’Thalas’s defenders and destroyed the fount to avert catastrophe. Although the high elves were spared from continued exposure to the Sunwell’s dark energies, in the fount’s absence they suffered terribly from withdrawal. As a result, Kael’thas desperately searched for a means to help his people—whom he had renamed the blood elves—and thus he set out for the shattered world of Outland. There he allied with the renegade demon Illidan Stormrage in the hopes of finding a cure for the blood elves’ crippling withdrawal.\nKael’thas had assured his people that one day he would return to Quel’Thalas and lead them to paradise, yet time revealed that his promises were nothing more than lies. On Outland, the prince became twisted due to his reliance on fel energy, the dark and corrupting essence wielded by the demonic Burning Legion itself. Unbeknownst to Illidan, Kael’thas also came under the sway of the Legion’s commander, Kil’jaeden.\nAt the bidding of his new master, the wayward prince eventually returned to Azeroth and seized the site of the Sunwell, hoping to use the fount as a means to usher Kil’jaeden into the world. Ultimately, Kael’thas was slain before his recklessness could bring ruin to Azeroth. In the wake of Kil’jaeden’s defeat, the draenei prophet Velen purified the Sunwell with the Light-infused heart of a fallen naaru, transforming the fount into a source of both holy and arcane energies.\nInspired by the Sunwell’s rebirth, the blood elves have since entered into a shining new era in their ancient race’s history. Although some elves remain hesitant to abandon their dependence on arcane magic, others have embraced change for the betterment of Quel’Thalas. Yet only time will tell if the blood elves can avoid repeating the tragic mistakes of their past."
+    },
+    "zone": {
+      "name": "Eversong Woods",
+      "description": "The blood elves have called the resplendent Eversong Woods home for millennia, but the stewardship of this forested region has not been without its perils. Bent on harnessing the elves’ mystical Sunwell, Prince Arthas and the Scourge carved a path of destruction through the heart of Quel’Thalas during the Third War, leaving a tainted scar across Eversong Woods. Thus far the elves have worked extensively to drive the lingering undead from their lands and cleanse the wounds of Arthas’s assault, but the task is far from over. As Quel’Thalas looks toward a new future, ensuring the safety and wellbeing of Eversong will be a critical first step."
+    },
+    "city": {
+      "name": "Silvermoon City",
+      "description": "Less than a decade ago, the wondrous high elven capital of Silvermoon was nearly destroyed during a brutal Scourge invasion. Under the command of Prince Arthas, the undead ravaged the city and went on to corrupt the sacred waters of the Sunwell. Despite this horrific event, the high elves—now known as the blood elves—have labored to rebuild their ruined capital. Most recently, the rebirth of the Sunwell has lifted spirits among the elves, and they have continued to heal Silvermoon’s scars in the hopes of returning the crown jewel of Quel’Thalas to its former glory."
+    },
+    "mount": {
+      "name": "Hawkstrider",
+      "description": "When Kael’thas led his followers to the ruined world of Outland, the vibrant hawkstriders that were brought with them proved to be welcome reminders of the blood elves’ beauteous home in Quel’Thalas. Valued for their trustworthiness and speed, these colorful avian creatures embody the inherent splendor of the forests within the blood elven kingdom. While tragedy has befallen Quel’Thalas in recent years, the hawkstriders remain an integral part of the elves’ day-to-day lives."
+    },
+    "traits": [
+      {
+        "name": "Arcane Acuity",
+        "description": "Arcane AcuityBlood elves possess a preternatural talent for precision and gain a bonus to their critical strike chance."
+      },
+      {
+        "name": "Arcane Torrent",
+        "description": "Arcane TorrentBlood elves can disrupt magic, removing one beneficial effect from enemies around them and restoring some of their own resources."
+      },
+      {
+        "name": "Arcane Affinity",
+        "description": "Arcane AffinityBlood elves are skilled in the mystical arts and receive a skill bonus to enchanting."
+      },
+      {
+        "name": "Magic Resistance",
+        "description": "Magic ResistanceBlood elves have a natural resistance to arcane magic spells."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Paladin",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Demon Hunter",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Goblin",
+    "type": "Core",
+    "intro": {
+      "title": "Covetous Schemers",
+      "body": "Originally the slaves of jungle trolls on the Isle of Kezan, goblins were forced to mine kaja’mite ore out of the volcanic bowels of Mount Kajaro. The trolls used this potent mineral for their voodoo rituals, but it had an unexpected effect on the slaves who were in constant contact with it: kaja’mite generated new cunning and intelligence in the goblin race."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/43ED992CO06Y1456971165175.png",
+    "history": {
+      "title": "Goblin History",
+      "body": "Crafting powerful artifacts of engineering and alchemy in secret, the goblins soon overthrew their oppressors and claimed Kezan for their homeland. The mines that had once been the goblins’ prison,   and  slave camp became the city of Undermine. It was there that they built the foundations of an empire, and honed their inherent craftiness (some would call it duplicity) to a razor edge. The goblins’ inventions would help them rule the world—or at least own a profitable percentage of it.\nTo the goblins’ dismay, the effects of the kaja’mite began to wear off, and their intelligence waned. Even worse, the ore itself became more scarce. Supplies dwindled. Desperation ensued…\n The goblins’ once-brilliant inventions started to look haphazard and makeshift, and Kezan’s native swindlers realized that they would need to find other ways to supplement their avarice. The goblins’ remaining craftiness and greed soon lifted the race to preeminence as masters of mercantilism.  Great fortunes were amassed, and the Isle of Kezan became a hub for goblin trading ships. One ambitious trade prince agreed to lend his cartel’s services to the Horde in the Second War. Following the Horde’s defeat, the goblins realized that their profits could double if they weren’t stuck in a restrictive relationship. By the end of the Third War, goblins were providing services to both the Horde and the Alliance.\n\nRecently, the Bilgewater Cartel—the goblin faction based in Orgrimmar and Azshara—has found a new enemy in the Alliance. Unprofitable encounters with the secretive SI:7 branch of King Varian’s forces have driven Trade Prince Gallywix from comfortable neutrality. Reforging old pacts with their colleagues’ one-time allies, the goblins of the Bilgewater Cartel have been welcomed into the Horde."
+    },
+    "zone": {
+      "name": "Kezan",
+      "description": "Thanks to Kezan’s prominence as a mercantile hub, it’s been divided into dozens of districts by the trade princes, who view every inch of land as an opportunity waiting to be converted into gold and silver. Kezan’s tropical palms are bisected with miles of roadway, and even the beaches are beginning to be paved over by goblin ambitions. Now, nature is reclaiming the island of Kezan – massive Mount Kajaro has erupted with the Cataclysm, flooding the island with searing lava and sending tidal recoil sweeping through Kezan’s harbors."
+    },
+    "city": {
+      "name": "Bilgewater Harbor",
+      "description": "Following the destruction of Kezan’s port homes, many of the Bilgewater Cartel’s surviving goblins have fled for their lives, joining their new Horde comrades and settling in Azshara’s Bilgewater Harbor. The town’s origins are often speculated on by non-goblins; Bilgewater Harbor sprang up in record time after the Kezan refugees’ arrival, and its’ quintessentially goblin construction has fostered an atmosphere of debauchery and disorder. Orgrimmar’s military has only recently set boots down in Bilgewater, but the harbor’s value as a strategic front conflicts with some pushy goblins’ desire to turn it into a new version of their ancestral home (abounding with gambling dens, pleasure houses and other commercial luxuries). This cultural rift is likely to breed tension in the ranks of the Horde sooner rather than later."
+    },
+    "mount": {
+      "name": "Trike",
+      "description": "With the Bilgewater goblins now in the trenches with the bigger brutes of the Horde, a significant number of trampling deaths have been reported. Normally unconcerned with such matters, Trade Prince Gallywix was alarmed to learn that Garrosh’s Forsaken accountants refused to pay soldier death benefits if the soldiers never got to the actual battle, and accidental stomps caused by tauren maneuvers made it extremely difficult to calculate how many goblins had made it to the battlefield before they were rendered flat. Gallywix offered a substantial cash reward for an invention that could both lift goblins out of hoof traffic and speed them along at comparable velocities so that goblin soldiers could die in “a calculate-able and reimbursable fashion.”\nHundreds of submissions were made. Most exploded upon delivery. In the end, the clear (and relatively undamaged) winner was the sturdy transport trike created by the remarkably aged Jibidiah “No Fingers” Gragglefutz. Gragglefutz had been a street-side grenade salesman for decades, and years of product-related mishaps had borne fruit in this speedy, durable, and mostly unexplodable vehicle. Jibidiah gained some renown for his creation, and he now claims that Gallywix has him hard at work on a speedier “turbo” version of the trike. Jibidiah’s one complaint is that the substantial cash reward for designing the trike has been stuck in a particularly insidious mess of red tape and mail delivery issues. The trade prince apologizes for this and promises to put his top goblins on it immediately."
+    },
+    "traits": [
+      {
+        "name": "Rocket Jump",
+        "description": "Rocket JumpGoblins can use their (relatively) trusty rocket belts to launch themselves over short distances."
+      },
+      {
+        "name": "Rocket Barrage",
+        "description": "Rocket BarrageThe rocket belt can also launch rockets at an enemy, causing fire damage to the target."
+      },
+      {
+        "name": "Pack Hobgoblin",
+        "description": "Pack HobgoblinGoblins can access their bank vault from anywhere after earning the help of a trusted friend."
+      },
+      {
+        "name": "Best Deals Anywhere",
+        "description": "Best Deals AnywhereWheeling and dealing is second nature to goblins, and they get discounts from vendors."
+      },
+      {
+        "name": "Time is Money",
+        "description": "Time is MoneyGoblins cash in on a bonus to haste."
+      },
+      {
+        "name": "Better Living Through Chemistry",
+        "description": "Better Living Through ChemistryGoblins have a natural affinity for hazardous materials and receive a bonus to Alchemy."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Warlock",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Void Elf",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "Many have sought to harness the corruptive magic of the Void. Most who tried have fallen into madness. Determined to use this power for the good of Azeroth, Alleria Windrunner is the first mortal to succeed at defying the shadow's whispers. Coming to the aid of a group of her kin who nearly gave in to the darkness, Alleria has vowed to train these Void elves to control the shadows within them and pledge their newfound powers to the Alliance."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/5V5FC0JM7EZ21532560495721.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Starcursed Voidstrider",
+      "description": "This shadow-infused strider embodies the elves' commitment to harness the power of the Void in the name of the Alliance."
+    },
+    "traits": [
+      {
+        "name": "Chill of Night",
+        "description": "Reduces Shadow damage taken."
+      },
+      {
+        "name": "Entropic Embrace",
+        "description": "Your abilities sometimes send you into Void Locus, granting bonus Shadow damage or healing."
+      },
+      {
+        "name": "Ethereal Connection",
+        "description": "Reduces the cost of Transmogrification and Void Storage."
+      },
+      {
+        "name": "Preternatural Calm",
+        "description": "Your spell casts are not delayed by damage."
+      },
+      {
+        "name": "Spatial Rift",
+        "description": "Teleport to a nearby destination."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Lightforged Draenei",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "For untold millennia, the Army of the Light waged war against the Burning Legion throughout the Twisting Nether. The draenei most committed to their long crusade would undergo a ritual to become Lightforged, infusing their bodies with the very essence of the Holy Light. After finally achieving victory on Argus, the Lightforged draenei have undertaken a new mission: protecting Azeroth from rising threats and helping the Alliance push back against Horde aggression."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/CKSTMP0F3JR31531430144751.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Lightforged Felcrusher",
+      "description": "A gift of thanks from the Lightforged draenei, this stalwart elekk is conditioned to charge headlong into darkness without fear."
+    },
+    "traits": [
+      {
+        "name": "Forge of Light",
+        "description": "Increases Blacksmithing skill and allows you to summon an anvil."
+      },
+      {
+        "name": "Holy Resistance",
+        "description": "Reduces Holy Damage taken."
+      },
+      {
+        "name": "Light's Judgment",
+        "description": "Deal mighty Holy damage to an area."
+      },
+      {
+        "name": "Light’s Reckoning",
+        "description": "Erupt upon death, dealing Holy damage to nearby enemies and healing nearby allies."
+      },
+      {
+        "name": "Demonbane",
+        "description": "Experience gains from killing Demons increased by 20%."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Paladin",
+      "Hunter",
+      "Priest",
+      "Mage",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Dark Iron Dwarf",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "Known for their fiery tempers and fierce determination, Dark Iron dwarves have a turbulent history with the other clans. A failed coup in Ironforge ignited the War of the Three Hammers, and many of the Dark Iron once fought in the service of Ragnaros the Firelord. Though one faction of the dwarves is pledged to Queen-Regent Moira Thaurissan, others refuse to stand alongside their kin. The Alliance seeks a united Dark Iron clan to harness the power of Azerite and aid their struggle against the Horde."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/22ZEQWWUAUV01532560489298.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Dark Iron Core Hound",
+      "description": "The fiery Core Hounds hail from Firelands, once the domain of Ragnaros the Firelord. The Dark Iron favor these igneous hounds as combat mounts, as any attackers foolish enough to ignore the blazing hounds inevitably end up as charred husks."
+    },
+    "traits": [
+      {
+        "name": "Fireblood",
+        "description": "Removes harmful effects and empowers you."
+      },
+      {
+        "name": "Dungeon Delver",
+        "description": "Move faster while indoors."
+      },
+      {
+        "name": "Mass Production",
+        "description": "Blacksmithing skill increased, and blacksmithing crafts faster."
+      },
+      {
+        "name": "Mole Machine",
+        "description": "When outdoors, summon a mole machine that tunnels through the earth."
+      },
+      {
+        "name": "Forged in Flames",
+        "description": "Reduces Physical damage taken."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Paladin",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Kul Tiran",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "Kul Tiras was founded by fearless explorers who sailed uncharted waters in search of adventure. As a key member of the Alliance of Lordaeron, the Kul Tiran navy dominated the seas of Azeroth with its legendary fleet. But after years of turmoil and hardship, the kingdom grew isolated and vulnerable to dark influences. Thanks to the help of brave heroes, House Proudmoore has been restored and Kul Tiras is poised to fight alongside the valiant Alliance once more."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/GH79ETP3YC4X1549479455375.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Kul Tiran Charger",
+      "description": "Though famous for its legendary navy, the Kul Tiran military prides itself on maintaining a formidable cavalry."
+    },
+    "traits": [
+      {
+        "name": "Brush It Off",
+        "description": "Increase Versatility and regenerate a portion of damage taken."
+      },
+      {
+        "name": "Child of the Sea",
+        "description": "Hold your breath longer and swim faster."
+      },
+      {
+        "name": "Haymaker",
+        "description": "Haul off and punch an enemy, stunning and knocking them back."
+      },
+      {
+        "name": "Jack of All Trades",
+        "description": "Increases skill in every tradeskill."
+      },
+      {
+        "name": "Rime of the Ancient Mariner",
+        "description": "Reduces Frost and Nature damage taken."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Monk",
+      "Druid",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Alliance",
+    "name": "Mechagnome",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "Long ago, a faction of zealous gnomes set out on a quest to improve their bodies and minds. Settling on the isolated isle of Mechagon, they experimented with ancient technology to reverse the Curse of Flesh and become living machines. After facing the perils of full mechanization, they found the ideal balance between flesh and steel. Now reunited with their gnomish cousins, the mechagnomes bring both tenacity and ingenuity to the Alliance."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/xb/XBBR586Y07TM1578532685694.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Mechagon Mechanostrider",
+      "description": "The best mount, logically, serves multiple purposes—sometimes you need to get places AND reach something high up once you get there."
+    },
+    "traits": [
+      {
+        "name": "Hyper Organic Light Originator",
+        "description": "Summon Organic Light duplicates to distract your foes."
+      },
+      {
+        "name": "Combat Analysis",
+        "description": "You periodically gather and analyze combat data, increasing your primary stat."
+      },
+      {
+        "name": "Mastercraft",
+        "description": "You function as a personal Blacksmithing Anvil, Cooking Fire, and Mining Forge. In addition, your limbs include every profession tool."
+      },
+      {
+        "name": "Emergency Failsafe",
+        "description": "Heal for a percentage of your maximum health when your health falls to a certain level."
+      },
+      {
+        "name": "Skeleton Pinkie",
+        "description": "Allows opening of locked chests and doors."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Nightborne",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "Isolated behind a protective barrier for 10,000 years, the elves of Suramar grew increasingly dependent upon the arcane magic of the Nightwell. To protect this font of power, the leaders of the Nightborne struck a bargain with the Burning Legion that plunged their kingdom into civil war. After fighting for freedom from their demonic masters, the Nightborne seek allies in the Horde to help reclaim their place in the world."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/TKPBMPZUSU7U1532560494019.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Nightborne Manasaber",
+      "description": "Born capable of sniffing out concentrations of arcane energy, this noble cat is presented with thanks to a proven ally of the Nightborne."
+    },
+    "traits": [
+      {
+        "name": "Ancient History",
+        "description": "Increases Inscription skill."
+      },
+      {
+        "name": "Magical Affinity",
+        "description": "Increases magical damage dealt."
+      },
+      {
+        "name": "Cantrips",
+        "description": "Summon a flying book that acts as a mailbox."
+      },
+      {
+        "name": "Arcane Pulse",
+        "description": "Enchants an area with arcane energy, damaging and snaring nearby enemies."
+      },
+      {
+        "name": "Arcane Resistance",
+        "description": "Reduces arcane damage taken."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Highmountain Tauren",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "Descended from Huln, brave hero of the War of the Ancients, the Highmountain tauren honor the spirits of earth, river, and sky. Though the Legion invaded their lands and sowed seeds of distrust between them, the tribes of Highmountain stand united once more. At long last they are ready to venture beyond their sacred mountain and stand beside their kin from Kalimdor, lending their nobility and strength to the mighty Horde."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/CKA8GU31B1FO1532560490496.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Highmountain Thunderhoof",
+      "description": "A gift from the tauren who trained this sure-footed highland moose to safely traverse the paths and peaks of Highmountain."
+    },
+    "traits": [
+      {
+        "name": "Bull Rush",
+        "description": "Charge forward, knocking down your enemies."
+      },
+      {
+        "name": "Mountaineer",
+        "description": "Increases Versatility."
+      },
+      {
+        "name": "Pride of Ironhorn",
+        "description": "Increases mining skill and speed."
+      },
+      {
+        "name": "Rugged Tenacity",
+        "description": "Reduces damage from incoming attacks."
+      },
+      {
+        "name": "Waste Not, Want Not",
+        "description": "Chance to gather additional meat and fish."
+      }
+    ],
+    "classes": ["Warrior", "Hunter", "Shaman", "Monk", "Druid", "Death Knight"]
+  },
+  {
+    "faction": "Horde",
+    "name": "Mag'har Orc",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "For untold generations, the orc clans of Draenor battled one another in endless war. But when Gul'dan offered them the blood of his demonic masters, the disparate tribes of Mag'har—the orcish word for \"uncorrupted\"—refused the dark bargain and banded together to drive out the Burning Legion. In the aftermath of the fall of Hellfire Citadel, the Mag'har pledged to one day repay Azeroth's heroes for aiding their cause. As war against the Alliance intensifies, the Horde must call upon the might of the Mag'har to seize victory."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/QZWDD8TUMEEX1532560493080.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Mag'har Direwolf",
+      "description": "Native to Draenor, these wolves are preferred by the Mag'har for their ferocity, loyalty, and for something to snuggle on those cool winter nights."
+    },
+    "traits": [
+      {
+        "name": "Ancestral Call",
+        "description": "Invokes the powers of your ancestors, granting you their power."
+      },
+      {
+        "name": "Open Skies",
+        "description": "Faster mount speed while outdoors."
+      },
+      {
+        "name": "Sympathetic Vigor",
+        "description": "Pet health is increased."
+      },
+      {
+        "name": "Savage Blood",
+        "description": "Reduces the duration on all Poisons, Diseases, and Curses effects on you."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Monk",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Zandalari Troll",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "The Zandalari are a proud people whose origins date back to the early days of Azeroth's history. Their fierce warriors ride dinosaurs into battle, and they possess one of the most formidable naval fleets in the known world. But enemy attacks on their borders—as well as unrest within the king's council—have threatened the kingdom's foundations. By returning stability to Zandalar, the heroes of the Horde can gain a powerful new ally."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/J7ETJWJQGK5E1549412561820.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Zandalari Direhorn",
+      "description": "The Zandalari are renowned for harnessing the power of the mighty beasts that roam their lands, including some of the most ferocious reptiles on Azeroth."
+    },
+    "traits": [
+      {
+        "name": "Embrace of the Loa",
+        "description": "Choose your Loa by making an offering at Loa Shrines around the world. Each Loa offers unique powers."
+      },
+      {
+        "name": "City of Gold",
+        "description": "Loot additional coin from monsters."
+      },
+      {
+        "name": "Regeneratin’",
+        "description": "Concentrate to heal quickly over a short time."
+      },
+      {
+        "name": "Pterrordax Swoop",
+        "description": "Can whistle up a Pterrordax to glide you to the ground."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Paladin",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Monk",
+      "Druid",
+      "Death Knight"
+    ]
+  },
+  {
+    "faction": "Horde",
+    "name": "Vulpera",
+    "type": "Allied",
+    "intro": {
+      "title": "Introduction",
+      "body": "Clever and resourceful, the vulpera have survived amidst the harsh desert of Vol'dun for generations. Traveling in close-knit caravans, they watch out for each other as they scavenge supplies from across the dunes. Despite their small stature, they are fierce and cunning in battle, bringing down any enemy foolish enough to underestimate them. Now full-fledged members of the Horde, their wagons have left the sands in search of adventure."
+    },
+    "crestSrc": "https://bnetcmsus-a.akamaihd.net/cms/template_resource/VHQCKU8JYDEU1578424645765.png",
+    "history": null,
+    "zone": null,
+    "city": null,
+    "mount": {
+      "name": "Caravan Hyena",
+      "description": "The canopy atop this dune-wanderer can be stored at your campsite, should you desire to feel the wind in your fur."
+    },
+    "traits": [
+      {
+        "name": "Bag of Tricks",
+        "description": "Pull your chosen trick from the bag and use it on target enemy or ally. Enemies take damage, while allies are healed."
+      },
+      {
+        "name": "Rummage Your Bag",
+        "description": "Choose which discovered tricks your bag contains."
+      },
+      {
+        "name": "Make Camp",
+        "description": "Make a camp at your current location."
+      },
+      {
+        "name": "Return to Camp",
+        "description": "Return to your camp."
+      },
+      {
+        "name": "Alpaca Saddlebags",
+        "description": "Increases the size of your backpack."
+      },
+      {
+        "name": "Fire Resistance",
+        "description": "Reduces Fire damage taken."
+      },
+      {
+        "name": "Nose For Trouble",
+        "description": "When you first take damage from an enemy, reduces that damage by a percentage of your maximum health."
+      }
+    ],
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Rogue",
+      "Priest",
+      "Shaman",
+      "Mage",
+      "Warlock",
+      "Monk",
+      "Death Knight"
+    ]
+  }
+]

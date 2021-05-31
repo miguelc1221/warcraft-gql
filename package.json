@@ -15,7 +15,8 @@
     "build:ts": "tsc",
     "dev": "tsc && concurrently -k -p \"[{name}]\" -n \"TypeScript,App\" -c \"yellow.bold,cyan.bold\" \"tsc -w\" \"fastify start --ignore-watch=.ts$ -w -l info -P dist/app.js\"",
     "format": "prettier --write '**/*.ts'",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "scrape": "ts-node ./scraper/scrapeData.ts"
   },
   "repository": {
     "type": "git",
@@ -33,11 +34,13 @@
   },
   "homepage": "https://github.com/miguelc1221/warcraft-gql#readme",
   "dependencies": {
+    "cheerio": "1.0.0-rc.9",
     "fastify": "^3.0.0",
     "fastify-autoload": "^3.3.1",
     "fastify-cli": "^2.12.0",
     "fastify-plugin": "^3.0.0",
-    "fastify-sensible": "^3.1.0"
+    "fastify-sensible": "^3.1.0",
+    "got": "^11.8.2"
   },
   "devDependencies": {
     "@types/node": "^15.0.0",
