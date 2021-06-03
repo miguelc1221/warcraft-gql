@@ -6,38 +6,36 @@ import { writeFile } from 'fs/promises'
 const scrapeRaces = async () => {
   try {
     const response = await got(`https://worldofwarcraft.com/en-us/game/races`)
-    const queryAllRacesUrl = cheerio.load(response.body)
-    const links = RaceScraper.getLinks(queryAllRacesUrl)
+    const queryAllRaces = cheerio.load(response.body)
+    const links = RaceScraper.getLinks(queryAllRaces)
 
     const raceData = await Promise.all(
       links.map(async ({ link, ...race }) => {
         const response = await got(link)
-        const queryRaceUrl = cheerio.load(response.body)
+        const queryRace = cheerio.load(response.body)
         const isAlliedType = race.type === 'Allied'
         const intro = isAlliedType
-          ? RaceScraper.getAlliedIntro(queryRaceUrl)
-          : RaceScraper.getIntro(queryRaceUrl)
+          ? RaceScraper.getAlliedIntro(queryRace)
+          : RaceScraper.getIntro(queryRace)
         const crestSrc = isAlliedType
-          ? RaceScraper.getAlliedCrestSrc(queryRaceUrl)
-          : RaceScraper.getCrestSrc(queryRaceUrl)
-        const history = isAlliedType
-          ? null
-          : RaceScraper.getHistory(queryRaceUrl)
+          ? RaceScraper.getAlliedCrestSrc(queryRace)
+          : RaceScraper.getCrestSrc(queryRace)
+        const history = isAlliedType ? null : RaceScraper.getHistory(queryRace)
         const zone = isAlliedType
           ? null
-          : RaceScraper.getSection(queryRaceUrl, 'Home Zone')
+          : RaceScraper.getSection(queryRace, 'Home Zone')
         const city = isAlliedType
           ? null
-          : RaceScraper.getSection(queryRaceUrl, 'Home City')
+          : RaceScraper.getSection(queryRace, 'Home City')
         const mount = isAlliedType
-          ? RaceScraper.getAlliedMount(queryRaceUrl)
-          : RaceScraper.getSection(queryRaceUrl, 'Racial Mount')
+          ? RaceScraper.getAlliedMount(queryRace)
+          : RaceScraper.getSection(queryRace, 'Racial Mount')
         const traits = isAlliedType
-          ? RaceScraper.getAlliedTraits(queryRaceUrl)
-          : RaceScraper.getTraits(queryRaceUrl)
+          ? RaceScraper.getAlliedTraits(queryRace)
+          : RaceScraper.getTraits(queryRace)
         const classes = isAlliedType
-          ? RaceScraper.getAlliedClasses(queryRaceUrl)
-          : RaceScraper.getClasses(queryRaceUrl)
+          ? RaceScraper.getAlliedClasses(queryRace)
+          : RaceScraper.getClasses(queryRace)
 
         return {
           ...race,
@@ -66,6 +64,6 @@ export const saveRacesToJson = async (): Promise<void> => {
     await writeFile('./scraper/races.json', JSON.stringify(races, null, 2))
     console.log('Done...')
   } catch (error) {
-    console.log(error, 'There was an error saving to json file.')
+    console.log(error, 'There was an error saving race json.')
   }
 }
