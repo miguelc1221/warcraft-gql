@@ -110,7 +110,7 @@ export const getTraits = (
   return cheerioSelector(`.font-semp-xSmall-blue`)
     .map((_idx, ele) => {
       const name = cheerioSelector(ele).text()
-      const description = cheerioSelector(ele).parent().text()
+      const description = cheerioSelector(ele).parent().contents().eq(1).text()
 
       return { name, description }
     })
@@ -195,19 +195,4 @@ export const getAlliedTraits = (
       return { name, description }
     })
     .get()
-}
-
-export default {
-  getLinks,
-  getAlliedIntro,
-  getIntro,
-  getAlliedCrestSrc,
-  getCrestSrc,
-  getHistory,
-  getSection,
-  getAlliedMount,
-  getAlliedTraits,
-  getAlliedClasses,
-  getTraits,
-  getClasses,
 }

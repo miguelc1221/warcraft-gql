@@ -1,0 +1,942 @@
+[
+  {
+    "name": "Warrior",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blte5777795e548c8c9/5ee3e476fc5bec085f1e6551/RPOZRXV8MCMC1457037487166.png",
+    "intro": {
+      "title": "Lords of War",
+      "description": "For as long as war has raged, heroes from every race have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons."
+    },
+    "info": "Warriors equip themselves carefully for combat and engage their enemies head-on, letting attacks glance off their heavy armor. They use diverse combat tactics and a wide variety of weapon types to protect their more vulnerable allies. Warriors must carefully master their rage – the power behind their strongest attacks – in order to maximize their effectiveness in combat.",
+    "combatRoles": [
+      "Tank",
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Rage"
+    ],
+    "armorType": [
+      "Plate",
+      "Shields"
+    ],
+    "weapons": [
+      "Daggers",
+      "Fist Weapons",
+      "Axes",
+      "Maces",
+      "Swords",
+      "Polearms",
+      "Staves"
+    ],
+    "specializations": [
+      {
+        "name": "Arms",
+        "description": "A battle-hardened master of weapons, using mobility and overpowering attacks to strike her opponents down.\n\nPreferred Weapon: Two-Handed Axe, Mace, Sword"
+      },
+      {
+        "name": "Fury",
+        "description": "A furious berserker unleashing a flurry of attacks to carve her opponents to pieces.\n\nPreferred Weapons: Dual Axes, Maces, Swords"
+      },
+      {
+        "name": "Protection",
+        "description": "A stalwart protector who uses a shield to safeguard herself and her allies.\n\nPreferred Weapon: Axe, Mace, Sword, and Shield"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "Draenei",
+      "Worgen",
+      "Pandaren",
+      "Void Elf",
+      "Lightforged Draenei",
+      "Dark Iron Dwarf",
+      "Kul Tiran",
+      "Mechagnome",
+      "Orc",
+      "Undead",
+      "Tauren",
+      "Troll",
+      "Blood Elf",
+      "Goblin",
+      "Pandaren",
+      "Nightborne",
+      "Highmountain Tauren",
+      "Mag'har Orc",
+      "Zandalari Troll",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Tank",
+        "description": "Mighty warriors depend on their heavy armor, shields, and battle prowess to defend themselves and ensure enemies don’t focus on their softer-skinned allies."
+      },
+      {
+        "name": "Melee Damage",
+        "description": "Weapon mastery is a staple of warrior training, and they are capable of delivering high damage with enormous two-handed weapons or by wielding two weapons."
+      },
+      {
+        "name": "Rage",
+        "description": "As warriors deal or take damage, their rage grows, allowing them to deliver truly crushing attacks in the heat of battle."
+      }
+    ]
+  },
+  {
+    "name": "Hunter",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt8fbac30a6c1af9f1/5ee3e4153a8621077a04a306/PHD55VWE4ZG71457037542377.png",
+    "intro": {
+      "title": "Inescapable Stalkers",
+      "description": "From an early age, the call of the wild draws some adventurers from the comfort of their homes into the unforgiving primal world outside. Those who endure become hunters. Masters of their environment, they are able to slip like ghosts through the trees and lay traps in the paths of their enemies."
+    },
+    "info": "Hunters battle their foes at a distance or up close, commanding their pets to attack while they nock their arrows, fire their guns, or ready their polearms. Though their weapons are effective at short and long ranges, hunters are also highly mobile. They can evade or restrain their foes to control the arena of battle.",
+    "combatRoles": [
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Focus"
+    ],
+    "armorType": [
+      "Mail"
+    ],
+    "weapons": [
+      "Axes",
+      "Bows",
+      "Crossbows",
+      "Daggers",
+      "Fist Weapons",
+      "Guns",
+      "Polearms",
+      "Staves",
+      "Swords"
+    ],
+    "specializations": [
+      {
+        "name": "Beast Mastery",
+        "description": "A master of the wild who can tame a wide variety of beasts to assist him in combat.\n\nPreferred Weapon: Bow, Crossbow, Gun"
+      },
+      {
+        "name": "Marksmanship",
+        "description": "A master sharpshooter who excels in bringing down enemies from afar.\n\nPreferred Weapon: Bow, Crossbow, Gun"
+      },
+      {
+        "name": "Survival",
+        "description": "An adaptive ranger who favors using explosives, animal venom, and coordinated attacks with their bonded beast.\n\nPreferred Weapon: Polearm, Staff"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "Draenei",
+      "Worgen",
+      "Pandaren",
+      "Void Elf",
+      "Lightforged Draenei",
+      "Dark Iron Dwarf",
+      "Kul Tiran",
+      "Mechagnome",
+      "Orc",
+      "Undead",
+      "Tauren",
+      "Troll",
+      "Blood Elf",
+      "Goblin",
+      "Pandaren",
+      "Nightborne",
+      "Highmountain Tauren",
+      "Mag'har Orc",
+      "Zandalari Troll",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Melee Damage",
+        "description": "Hunters are rugged trackers who can use venom, explosives and traps to damage enemies up close."
+      },
+      {
+        "name": "Ranged Damage",
+        "description": "Whether wielding bows, guns, or crossbows, hunters are deadly with ranged weapons. They are capable of dishing out consistently high damage."
+      },
+      {
+        "name": "Pets",
+        "description": "Hunters tame the beasts of the wild, and those beasts serve in return by assaulting their enemies and shielding them from harm."
+      },
+      {
+        "name": "Solo play",
+        "description": "Thanks to their pets and damage output, hunters are effective at completing quests and leveling quickly, even when they’re alone."
+      }
+    ]
+  },
+  {
+    "name": "Priest",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt11fabe7dc7912ba9/5ee78c0263a2d9709383090d/XZAE7Z08UVZM1457037515730.png",
+    "intro": {
+      "title": "Invokers of Light and Darkness",
+      "description": "Priests are devoted to the spiritual, and express their unwavering faith by serving the people. For millennia they have left behind the confines of their temples and the comfort of their shrines so they can support their allies in war-torn lands. In the midst of terrible conflict, no hero questions the value of the priestly orders."
+    },
+    "info": "Priests use powerful healing magic to fortify themselves and their allies. They also wield powerful offensive spells from a distance, but can be overwhelmed by enemies due to their physical frailty and minimal armor. Experienced priests carefully balance the use of their offensive powers when tasked with keeping their party alive.",
+    "combatRoles": [
+      "Healer",
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Mana",
+      "Insanity"
+    ],
+    "armorType": [
+      "Cloth"
+    ],
+    "weapons": [
+      "Daggers",
+      "One-Handed Maces",
+      "Staves",
+      "Wands"
+    ],
+    "specializations": [
+      {
+        "name": "Discipline",
+        "description": "Uses magic to shield allies from taking damage as well as heal their wounds.\n\nPreferred Weapon: Staff, Wand, Dagger, Mace"
+      },
+      {
+        "name": "Holy",
+        "description": "A versatile healer who can reverse damage on individuals or groups and even heal from beyond the grave.\n\nPreferred Weapon: Staff, Wand, Dagger, Mace"
+      },
+      {
+        "name": "Shadow",
+        "description": "Uses sinister Shadow magic and terrifying Void magic to eradicate enemies.\n\nPreferred Weapon: Staff, Wand, Dagger, Mace"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "Draenei",
+      "Worgen",
+      "Pandaren",
+      "Void Elf",
+      "Lightforged Draenei",
+      "Dark Iron Dwarf",
+      "Kul Tiran",
+      "Mechagnome",
+      "Undead",
+      "Tauren",
+      "Troll",
+      "Blood Elf",
+      "Goblin",
+      "Pandaren",
+      "Nightborne",
+      "Mag'har Orc",
+      "Zandalari Troll",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Healing",
+        "description": "Priests utilize their holy powers to restore their health and that of their comrades."
+      },
+      {
+        "name": "Ranged Damage",
+        "description": "Priestly Shadow magic can deliver great amounts of immediate damage, or wracking pains that punish foes over longer periods of time."
+      },
+      {
+        "name": "Power Words",
+        "description": "By calling on mystic shielding and holy empowerment, priests can prevent incoming damage and improve their defenses and those of their allies."
+      },
+      {
+        "name": "Mind Control",
+        "description": "Priests’ connection with the minds and spirits of living beings allows them to control and manipulate others."
+      }
+    ]
+  },
+  {
+    "name": "Mage",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt56494dcd20feee74/5ee3e450e8f74907ecce0124/OGQYW3GHV8RL1457037534068.png",
+    "intro": {
+      "title": "Masters of Time and Space",
+      "description": "Students gifted with a keen intellect and unwavering discipline may walk the path of the mage. The arcane magic available to magi is both great and dangerous, and thus is revealed only to the most devoted practitioners. To avoid interference with their spellcasting, magi wear only cloth armor, but arcane shields and enchantments give them additional protection. To keep enemies at bay, magi can summon bursts of fire to incinerate distant targets and cause entire areas to erupt, setting groups of foes ablaze."
+    },
+    "info": "Mages demolish their foes with arcane incantations. Although they wield powerful offensive spells, mages are fragile and lightly armored, making them particularly vulnerable to close-range attacks. Wise mages make careful use of their spells to keep their foes at a distance or hold them in place.",
+    "combatRoles": [
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Mana"
+    ],
+    "armorType": [
+      "Cloth"
+    ],
+    "weapons": [
+      "Wands",
+      "Daggers",
+      "One-Handed Swords",
+      "Staves"
+    ],
+    "specializations": [
+      {
+        "name": "Arcane",
+        "description": "Manipulates raw Arcane magic, destroying enemies with overwhelming power.\n\nPreferred Weapon: Staff, Wand, Dagger, Sword"
+      },
+      {
+        "name": "Fire",
+        "description": "Focuses the pure essence of Fire magic, assaulting enemies with combustive flames.\n\nPreferred Weapon: Staff, Wand, Dagger, Sword"
+      },
+      {
+        "name": "Frost",
+        "description": "Freezes enemies in their tracks and shatters them with Frost magic.\n\nPreferred Weapon: Staff, Wand, Dagger, Sword"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "Draenei",
+      "Worgen",
+      "Pandaren",
+      "Void Elf",
+      "Lightforged Draenei",
+      "Dark Iron Dwarf",
+      "Kul Tiran",
+      "Mechagnome",
+      "Orc",
+      "Undead",
+      "Troll",
+      "Blood Elf",
+      "Goblin",
+      "Pandaren",
+      "Nightborne",
+      "Mag'har Orc",
+      "Zandalari Troll",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Ranged Damage",
+        "description": "Mages can expend mana in order to deal high amounts of damage with amazing speed, though they must be wary of exhausting themselves."
+      },
+      {
+        "name": "Area of Effect Spells",
+        "description": "By calling upon sheets of ice, columns of flame, and waves of arcane power, mages can effectively attack multiple foes at the same time."
+      },
+      {
+        "name": "Control",
+        "description": "A mage has many options for controlling the battlefield, from freezing enemies in place to transforming them into helpless critters."
+      },
+      {
+        "name": "Teleportation",
+        "description": "Mages possess the ability to transport themselves and their allies between cities and can summon replenishing food and water."
+      }
+    ]
+  },
+  {
+    "name": "Monk",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt63e4488784925447/5ee793cfa9170407eeb4b917/7Y1OJFSCMOHZ1457037527905.png",
+    "intro": {
+      "title": "Musing Brawlers",
+      "description": "When the pandaren were subjugated by the mogu centuries ago, it was the monks that brought hope to a seemingly dim future. Restricted from using weapons by their slave masters, these pandaren instead focused on harnessing their chi and learning weaponless combat. When the opportunity for revolution struck, they were well-trained to throw off the yoke of oppression."
+    },
+    "info": "Whatever their combat role, monks rely mainly on their hands and feet to do the talking, and on strong connection with their inner chi to power their abilities. Monks can also heal their allies while at the same time damaging their enemies.",
+    "combatRoles": [
+      "Tank",
+      "Healer",
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Chi",
+      "Energy",
+      "Mana"
+    ],
+    "armorType": [
+      "Leather"
+    ],
+    "weapons": [
+      "Fist Weapons",
+      "One-Handed Axes",
+      "One-Handed Maces",
+      "One-Handed Swords",
+      "Polearms",
+      "Staves"
+    ],
+    "specializations": [
+      {
+        "name": "Brewmaster",
+        "description": "A sturdy brawler who uses unpredictable movement and mystical brews to avoid damage and protect allies.\n\nPreferred Weapon: Staff, Polearm"
+      },
+      {
+        "name": "Mistweaver",
+        "description": "A healer who masters the mysterious art of manipulating life energies aided by the wisdom of the Jade Serpent.\n\nPreferred Weapon: Staff, Mace, Sword"
+      },
+      {
+        "name": "Windwalker",
+        "description": "A martial artist without peer who pummels foes with hands and fists.\n\nPreferred Weapons: Fist Weapons, Axes, Maces, Swords"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "Draenei",
+      "Pandaren",
+      "Void Elf",
+      "Dark Iron Dwarf",
+      "Kul Tiran",
+      "Mechagnome",
+      "Orc",
+      "Undead",
+      "Tauren",
+      "Troll",
+      "Blood Elf",
+      "Pandaren",
+      "Nightborne",
+      "Highmountain Tauren",
+      "Mag'har Orc",
+      "Zandalari Troll",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Tank",
+        "description": "Stalwart monks defend their allies by distracting enemies with their dizzying brews and uncanny elusiveness."
+      },
+      {
+        "name": "Healing",
+        "description": "Monks can channel mystical powers to heal and restore injured allies."
+      },
+      {
+        "name": "Melee Damage",
+        "description": "Monks are true zen masters, and strike with precision and grace to inflict maximum damage to their enemies."
+      },
+      {
+        "name": "August Celestials",
+        "description": "The August Celestials are four Wild Gods who watch over Pandaria, and lend Monks some of their power."
+      }
+    ]
+  },
+  {
+    "name": "Demon Hunter",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt2490a2c648b86219/5ee79636d217327180733e7d/4B35S4Z5N11X1457037556292.png",
+    "intro": {
+      "title": "Unforgiving Predators",
+      "description": "Demon hunters, disciples of Illidan Stormrage, uphold a dark legacy, one that frightens their allies and enemies alike. The Illidari embrace fel and chaotic magics—energies that have long threatened the world of Azeroth—believing them necessary to challenge the Burning Legion. Wielding the powers of demons they’ve slain, they develop demonic features that incite revulsion and dread in fellow elves."
+    },
+    "info": "Forgoing heavy armor, Demon Hunters capitalize on speed, closing the distance quickly to strike enemies with one-handed weapons. However, Illidari must also use their agility defensively to ensure that battles end favorably.",
+    "combatRoles": [
+      "Tank",
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Fury"
+    ],
+    "armorType": [
+      "Leather"
+    ],
+    "weapons": [
+      "Warglaives",
+      "Fist Weapons",
+      "One-Handed Axes",
+      "One-Handed Swords"
+    ],
+    "specializations": [
+      {
+        "name": "Havoc",
+        "description": "A brooding master of warglaives and the destructive power of Fel magic.\n\nPreferred Weapons: Warglaives, Swords, Axes, Fist Weapons"
+      },
+      {
+        "name": "Vengeance",
+        "description": "Embraces the demon within to incinerate enemies and protect their allies.\n\nPreferred Weapons: Warglaives, Swords, Axes, Fist Weapons"
+      }
+    ],
+    "races": [
+      "Night Elf",
+      "Blood Elf"
+    ],
+    "features": [
+      {
+        "name": "Tank",
+        "description": "The chaotic energy that flows within Demon Hunters gifts them with unparalleled durability."
+      },
+      {
+        "name": "Melee Damage",
+        "description": "Demon Hunters can double jump, vault in and out of combat, and unfold their monstrous wings, surprising enemies from above with devastating attacks."
+      },
+      {
+        "name": "Metamorphosis",
+        "description": "Demon Hunters transform into hellish forms, enhancing their chosen role: damage-focused Illidari can teleport into combat, while those who prize defense can grant powerful supportive Auras."
+      },
+      {
+        "name": "Spectral Sight",
+        "description": "The Demon Hunters’ apparent blindness belies their true powers of perception. They rely on magically augmented sight to detect enemies, even those that hide behind obstacles."
+      }
+    ]
+  },
+  {
+    "name": "Paladin",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt1da73d925b189bce/5ee790ae418a3c077bb238d7/19XLRJMFTB881457037521481.png",
+    "intro": {
+      "title": "Paragons of Justice",
+      "description": "This is the call of the paladin: to protect the weak, to bring justice to the unjust, and to vanquish evil from the darkest corners of the world. These holy warriors are equipped with plate armor so they can confront the toughest of foes, and the blessing of the Light allows them to heal wounds and, in some cases, even restore life to the dead."
+    },
+    "info": "Paladins stand directly in front of their enemies, relying on heavy armor and healing in order to survive incoming attacks. Whether with massive shields or crushing two-handed weapons, Paladins are able to keep claws and swords from their weaker fellows – or they use healing magic to ensure that they remain on their feet.",
+    "combatRoles": [
+      "Tank",
+      "Healer",
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Mana",
+      "Holy Power"
+    ],
+    "armorType": [
+      "Plate",
+      "Shields"
+    ],
+    "weapons": [
+      "Axes",
+      "Maces",
+      "Swords",
+      "Polearms"
+    ],
+    "specializations": [
+      {
+        "name": "Holy",
+        "description": "Invokes the power of the Light to heal and protect allies and vanquish evil from the darkest corners of the world.\n\nPreferred Weapon: Sword, Mace, and Shield"
+      },
+      {
+        "name": "Protection",
+        "description": "Uses Holy magic to shield himself and defend allies from attackers.\n\nPreferred Weapon: Sword, Mace, Axe, and Shield"
+      },
+      {
+        "name": "Retribution",
+        "description": "A righteous crusader who judges and punishes opponents with weapons and Holy magic.\n\nPreferred Weapon: Two-Handed Sword, Mace, Axe"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Draenei",
+      "Lightforged Draenei",
+      "Dark Iron Dwarf",
+      "Tauren",
+      "Blood Elf",
+      "Zandalari Troll"
+    ],
+    "features": [
+      {
+        "name": "Tank",
+        "description": "Stalwart paladins are trained to use the heaviest armor and shields, and can utilize their skill to ensure that enemies focus on them, defending weaker members of their group."
+      },
+      {
+        "name": "Healing",
+        "description": "Paladins’ potent healing abilities can ensure that they and their allies remain in fighting shape."
+      },
+      {
+        "name": "Melee Damage",
+        "description": "Paladins charge their weapons with holy might, allowing them to deal additional damage with their strikes."
+      },
+      {
+        "name": "Blessings and Auras",
+        "description": "As champions of order, paladins are extremely potent in a group – their blessings and auras can improve damage and survivability for both themselves and their party."
+      }
+    ]
+  },
+  {
+    "name": "Rogue",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt7921da4f7d709b4e/5ee3e4a614a7bc718bab5fc2/ORHZR0HIQOW81457037509031.png",
+    "intro": {
+      "title": "Prowling Cutpurses",
+      "description": "For rogues, the only code is the contract, and their honor is purchased in gold. Free from the constraints of a conscience, these mercenaries rely on brutal and efficient tactics. Lethal assassins and masters of stealth, they will approach their marks from behind, piercing a vital organ and vanishing into the shadows before the victim hits the ground."
+    },
+    "info": "Rogues often initiate combat with a surprise attack from the shadows, leading with vicious melee strikes. When in protracted battles, they utilize a successive combination of carefully chosen attacks to soften the enemy up for a killing blow. Rogues must take special care when selecting targets so that their combo attacks are not wasted, and they must be conscious of when to hide or flee if a battle turns against them.",
+    "combatRoles": [
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Energy",
+      "Combo Points"
+    ],
+    "armorType": [
+      "Leather"
+    ],
+    "weapons": [
+      "Daggers",
+      "Fist Weapons",
+      "One-Handed Axes",
+      "One-Handed Maces",
+      "One-Handed Swords"
+    ],
+    "specializations": [
+      {
+        "name": "Assassination",
+        "description": "A deadly master of poisons who dispatches victims with vicious dagger strikes.\n\nPreferred Weapons: Daggers"
+      },
+      {
+        "name": "Outlaw",
+        "description": "A ruthless fugitive who uses agility and guile to stand toe-to-toe with enemies.\n\nPreferred Weapons: Axes, Maces, Swords, Fist Weapons"
+      },
+      {
+        "name": "Subtlety",
+        "description": "A dark stalker who leaps from the shadows to ambush her unsuspecting prey.\n\nPreferred Weapons: Daggers"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "Worgen",
+      "Pandaren",
+      "Void Elf",
+      "Dark Iron Dwarf",
+      "Kul Tiran",
+      "Mechagnome",
+      "Orc",
+      "Undead",
+      "Troll",
+      "Blood Elf",
+      "Goblin",
+      "Pandaren",
+      "Nightborne",
+      "Mag'har Orc",
+      "Zandalari Troll",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Melee Damage",
+        "description": "By skillfully wielding dual-wielded weapons, rogues can deliver catastrophic damage to their targets."
+      },
+      {
+        "name": "Stealth",
+        "description": "Rogues sneak about the battlefield, hiding from enemies and delivering surprise attacks to the unwary when opportunity arises."
+      },
+      {
+        "name": "Poisons",
+        "description": "Rogues coat their weapons in poison, allowing them to quickly dispatch weakened foes."
+      },
+      {
+        "name": "Combos",
+        "description": "By planning and combining successive melee attacks, rogues can build up combo points that allow them to deliver devastating finishing blows in combat."
+      }
+    ]
+  },
+  {
+    "name": "Shaman",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt4f1234eeda8832a3/5ee7928563a2d9709383092b/IJFM2IEVGM6N1457037501982.png",
+    "intro": {
+      "title": "Adepts of the Elements",
+      "description": "Shaman are spiritual guides and practitioners, not of the divine, but of the very elements. Unlike some other mystics, shaman commune with forces that are not strictly benevolent. The elements are chaotic, and left to their own devices, they rage against one another in unending primal fury. It is the call of the shaman to bring balance to this chaos. Acting as moderators among earth, fire, water, and air, shaman summon totems that focus the elements to support the shaman’s allies or punish those who threaten them."
+    },
+    "info": "During combat, shaman place damaging and controlling totems on the ground to maximize their effectiveness while hindering their enemies. Shaman are versatile enough to battle foes up close or at range, but wise shaman choose their avenue of attack based on their enemies’ strengths and weaknesses.",
+    "combatRoles": [
+      "Healer",
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Mana",
+      "Maelstrom"
+    ],
+    "armorType": [
+      "Mail",
+      "Shields"
+    ],
+    "weapons": [
+      "Daggers",
+      "Fist Weapons",
+      "Axes",
+      "Maces",
+      "Staves"
+    ],
+    "specializations": [
+      {
+        "name": "Elemental",
+        "description": "A spellcaster who harnesses the destructive forces of nature and the elements.\n\nPreferred Weapon: Mace, Dagger, and Shield"
+      },
+      {
+        "name": "Enhancement",
+        "description": "A totemic warrior who strikes foes with weapons imbued with elemental power.\n\nPreferred Weapons: Dual Axes, Maces, Fist Weapons"
+      },
+      {
+        "name": "Restoration",
+        "description": "A healer who calls upon ancestral spirits and the cleansing power of water to mend allies' wounds.\n\nPreferred Weapon: Mace, Dagger, and Shield"
+      }
+    ],
+    "races": [
+      "Dwarf",
+      "Draenei",
+      "Pandaren",
+      "Dark Iron Dwarf",
+      "Kul Tiran",
+      "Orc",
+      "Tauren",
+      "Troll",
+      "Goblin",
+      "Pandaren",
+      "Highmountain Tauren",
+      "Mag'har Orc",
+      "Zandalari Troll",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Healing",
+        "description": "By calling on their spiritual power, shaman can restore health to injured allies."
+      },
+      {
+        "name": "Melee Damage",
+        "description": "Shaman enhance their weapons with elemental effects, empowering their blows with the power of fire, wind, or ice."
+      },
+      {
+        "name": "Ranged Damage",
+        "description": "The elemental force of the shaman can be used to damage enemies from afar with lightning strikes, earthquakes, and lava bursts."
+      },
+      {
+        "name": "Totems",
+        "description": "Shaman can choose to deploy a wide array of different totems, each with unique effects from improved restoration to greater damage, enhanced crowd control, and more."
+      }
+    ]
+  },
+  {
+    "name": "Warlock",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt8cee1118340e0529/5ee3e8c5a9170407eeb4b79d/ODSDYFWLT9B01457037493681.png",
+    "intro": {
+      "title": "Channelers of Forbidden Powers",
+      "description": "In the face of demonic power, most heroes see death. Warlocks see only opportunity. Dominance is their aim, and they have found a path to it in the dark arts. These voracious spellcasters summon demonic minions to fight beside them. At first, they command only the service of imps, but as a warlock’s knowledge grows, seductive succubi, loyal voidwalkers, and horrific felhunters join the dark sorcerer’s ranks to wreak havoc on anyone who stands in their master’s way."
+    },
+    "info": "Warlocks burn and destroy weakened foes with a combination of crippling illnesses and dark magic. While their demon pets protect and enhance them, warlocks strike at their enemies from a distance. As physically weak spellcasters bereft of heavy armor, cunning warlocks allow their minions to take the brunt of enemy attacks in order to save their own skin.",
+    "combatRoles": [
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Mana",
+      "Soul Shards"
+    ],
+    "armorType": [
+      "Cloth"
+    ],
+    "weapons": [
+      "Daggers",
+      "One-Handed Swords",
+      "Staves",
+      "Wands"
+    ],
+    "specializations": [
+      {
+        "name": "Affliction",
+        "description": "A master of shadow magic who specializes in drains and damage-over-time spells.\n\nPreferred Weapon: Staff, Wand, Dagger, Sword"
+      },
+      {
+        "name": "Demonology",
+        "description": "A commander of demons who twists the souls of his army into devastating power.\n\nPreferred Weapon: Staff, Wand, Dagger, Sword"
+      },
+      {
+        "name": "Destruction",
+        "description": "A master of chaos who calls down fire to burn and demolish enemies.\n\nPreferred Weapon: Staff, Wand, Dagger, Sword"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Gnome",
+      "Worgen",
+      "Void Elf",
+      "Dark Iron Dwarf",
+      "Mechagnome",
+      "Orc",
+      "Undead",
+      "Troll",
+      "Blood Elf",
+      "Goblin",
+      "Nightborne",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Ranged Damage",
+        "description": "Warlocks deliver fire and shadow damage with their spells, and they’re able to hurt others both instantly and with ongoing afflictions."
+      },
+      {
+        "name": "Summoning",
+        "description": "Warlocks are adept at summoning their allies to their presence, whether said allies are other heroes or bloodthirsty demons."
+      },
+      {
+        "name": "Demons",
+        "description": "Warlocks bind demons to their will; these infernal denizens defend their masters with their lives or rain death upon their enemies."
+      },
+      {
+        "name": "Curses",
+        "description": "Warlocks make use of debilitating curses to weaken and disable enemies, reducing their ability to fight back."
+      }
+    ]
+  },
+  {
+    "name": "Druid",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/bltbf5a772e934ff371/5ee3e39dfc5bec085f1e6533/LI82P1DRVSNA1447154373009.png",
+    "intro": {
+      "title": "Savage Shapeshifters",
+      "description": "Druids harness the vast powers of nature to preserve balance and protect life. With experience, druids can unleash nature’s raw energy against their enemies, raining celestial fury on them from a great distance, binding them with enchanted vines, or ensnaring them in unrelenting cyclones."
+    },
+    "info": "Druids are versatile combatants, in that they can fulfill nearly every role – healing, tanking, and damage dealing. It’s critical that druids tailor the form they choose to the situation, as each form bears a specific purpose.",
+    "combatRoles": [
+      "Tank",
+      "Healer",
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Mana",
+      "Rage",
+      "Energy",
+      "Astral Power"
+    ],
+    "armorType": [
+      "Leather"
+    ],
+    "weapons": [
+      "Daggers",
+      "Fist Weapons",
+      "Maces",
+      "Polearms",
+      "Staves"
+    ],
+    "specializations": [
+      {
+        "name": "Balance",
+        "description": "Can shapeshift into a powerful Moonkin, balancing the power of Arcane and Nature magic to destroy enemies.\n\nPreferred Weapon: Staff, Dagger, Mace"
+      },
+      {
+        "name": "Feral",
+        "description": "Takes on the form of a great cat to deal damage with bleeds and bites.\n\nPreferred Weapon: Staff, Polearm"
+      },
+      {
+        "name": "Guardian",
+        "description": "Takes on the form of a mighty bear to absorb damage and protect allies.\n\nPreferred Weapon: Staff, Polearm"
+      },
+      {
+        "name": "Restoration",
+        "description": "Channels powerful Nature magic to regenerate and revitalize allies.\n\nPreferred Weapon: Staff, Dagger, Mace"
+      }
+    ],
+    "races": [
+      "Night Elf",
+      "Worgen",
+      "Kul Tiran",
+      "Tauren",
+      "Troll",
+      "Highmountain Tauren",
+      "Zandalari Troll"
+    ],
+    "features": [
+      {
+        "name": "Tank",
+        "description": "When shapeshifted into their bear form, druids possess a thick skin and imposing presence that makes them ideal front-line protectors of weaker party members."
+      },
+      {
+        "name": "Healing",
+        "description": "By calling upon the powers of nature, druids are able to swiftly restore health to their injured allies."
+      },
+      {
+        "name": "Melee and Ranged Damage",
+        "description": "Druids can take on the form of a savage cat in order to claw and bite their enemies up close, or that of a wild moonkin to blast enemies from afar."
+      },
+      {
+        "name": "Shapeshifting",
+        "description": "Druids’ changing forms let them assume different roles and focus on either tanking, healing, or damage. They can also shapeshift to travel faster on land, sea, and air."
+      }
+    ]
+  },
+  {
+    "name": "Death Knight",
+    "crestSrc": "https://images.blz-contentstack.com/v3/assets/blt3452e3b114fab0cd/blt8bfa36196bf61105/5ee3e3d7889f917094610ea0/IMLWRYPWBRYL1457037563416.png",
+    "intro": {
+      "title": "Heralds of Doom",
+      "description": "Death Knights engage their foes up-close, supplementing swings of their weapons with dark magic that renders enemies vulnerable or damages them with unholy power. They drag foes into one-on-one conflicts, compelling them to focus their attacks away from weaker companions. To prevent their enemies from fleeing their grasp, death knights must remain mindful of the power they call forth from runes, and pace their attacks appropriately."
+    },
+    "info": "Death knight talents can bolster their defensive abilities by focusing on their ability to heal themselves, increase their damage and spell attacks, or summon forth minions and diseases by making use of their runes.",
+    "combatRoles": [
+      "Tank",
+      "Damage"
+    ],
+    "resources": [
+      "Health",
+      "Runic Power",
+      "Runes"
+    ],
+    "armorType": [
+      "Plate"
+    ],
+    "weapons": [
+      "Axes",
+      "Maces",
+      "Swords",
+      "Polearms"
+    ],
+    "specializations": [
+      {
+        "name": "Blood",
+        "description": "A dark guardian who manipulates and corrupts life energy to sustain herself in the face of an enemy onslaught.\n\nPreferred Weapon: Two-Handed Axe, Mace, Sword"
+      },
+      {
+        "name": "Frost",
+        "description": "An icy harbinger of doom, channeling runic power and delivering vicious weapon strikes.\n\nPreferred Weapons: Dual Axes, Maces, Swords"
+      },
+      {
+        "name": "Unholy",
+        "description": "A master of death and decay, spreading infection and controlling undead minions to do her bidding.\n\nPreferred Weapon: Two-Handed Axe, Mace, Sword"
+      }
+    ],
+    "races": [
+      "Human",
+      "Dwarf",
+      "Night Elf",
+      "Gnome",
+      "Draenei",
+      "Worgen",
+      "Pandaren",
+      "Void Elf",
+      "Lightforged Draenei",
+      "Dark Iron Dwarf",
+      "Kul Tiran",
+      "Mechagnome",
+      "Orc",
+      "Undead",
+      "Tauren",
+      "Troll",
+      "Blood Elf",
+      "Goblin",
+      "Pandaren",
+      "Nightborne",
+      "Highmountain Tauren",
+      "Mag'har Orc",
+      "Zandalari Troll",
+      "Vulpera"
+    ],
+    "features": [
+      {
+        "name": "Tank",
+        "description": "To protect themselves and their fellows from death in battle, death knights gird themselves in heavy armor and parry attacks with their blades."
+      },
+      {
+        "name": "Melee Damage",
+        "description": "Death knight runeblades are empowered with dark magic; they can expend the power of their runes for vicious attacks."
+      },
+      {
+        "name": "Runeforging",
+        "description": "Death knights have a personal connection with their blades, and can forge runes into them in order to increase their power."
+      }
+    ]
+  }
+]

@@ -1,10 +1,11 @@
-import { saveRacesToJson } from './wow/races'
+import { saveRacesToJson } from './wow/races/races'
+import { saveClassesToJson } from './wow/classes/classes'
 
 const scrapeData = async () => {
   try {
-    await saveRacesToJson()
+    await Promise.all([saveRacesToJson(), saveClassesToJson()])
   } catch (error) {
-    console.log(error, 'Failed to scrapeData')
+    console.log(error, 'Failed to scrape all data')
   }
 }
 

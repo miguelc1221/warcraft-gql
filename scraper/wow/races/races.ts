@@ -1,13 +1,26 @@
 import * as cheerio from 'cheerio'
 import got from 'got'
-import RaceScraper from './utils'
 import { writeFile } from 'fs/promises'
+import {
+  getLinks,
+  getAlliedIntro,
+  getIntro,
+  getAlliedCrestSrc,
+  getCrestSrc,
+  getHistory,
+  getSection,
+  getAlliedMount,
+  getAlliedTraits,
+  getAlliedClasses,
+  getTraits,
+  getClasses,
+} from './utils'
 
 const scrapeRaces = async () => {
   try {
     const response = await got(`https://worldofwarcraft.com/en-us/game/races`)
     const queryAllRaces = cheerio.load(response.body)
-    const links = RaceScraper.getLinks(queryAllRaces)
+    const links = getLinks(queryAllRaces)
 
     const raceData = await Promise.all(
       links.map(async ({ link, ...race }) => {
@@ -15,27 +28,23 @@ const scrapeRaces = async () => {
         const queryRace = cheerio.load(response.body)
         const isAlliedType = race.type === 'Allied'
         const intro = isAlliedType
-          ? RaceScraper.getAlliedIntro(queryRace)
-          : RaceScraper.getIntro(queryRace)
+          ? getAlliedIntro(queryRace)
+          : getIntro(queryRace)
         const crestSrc = isAlliedType
-          ? RaceScraper.getAlliedCrestSrc(queryRace)
-          : RaceScraper.getCrestSrc(queryRace)
-        const history = isAlliedType ? null : RaceScraper.getHistory(queryRace)
-        const zone = isAlliedType
-          ? null
-          : RaceScraper.getSection(queryRace, 'Home Zone')
-        const city = isAlliedType
-          ? null
-          : RaceScraper.getSection(queryRace, 'Home City')
+          ? getAlliedCrestSrc(queryRace)
+          : getCrestSrc(queryRace)
+        const history = isAlliedType ? null : getHistory(queryRace)
+        const zone = isAlliedType ? null : getSection(queryRace, 'Home Zone')
+        const city = isAlliedType ? null : getSection(queryRace, 'Home City')
         const mount = isAlliedType
-          ? RaceScraper.getAlliedMount(queryRace)
-          : RaceScraper.getSection(queryRace, 'Racial Mount')
+          ? getAlliedMount(queryRace)
+          : getSection(queryRace, 'Racial Mount')
         const traits = isAlliedType
-          ? RaceScraper.getAlliedTraits(queryRace)
-          : RaceScraper.getTraits(queryRace)
+          ? getAlliedTraits(queryRace)
+          : getTraits(queryRace)
         const classes = isAlliedType
-          ? RaceScraper.getAlliedClasses(queryRace)
-          : RaceScraper.getClasses(queryRace)
+          ? getAlliedClasses(queryRace)
+          : getClasses(queryRace)
 
         return {
           ...race,

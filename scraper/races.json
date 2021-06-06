@@ -27,15 +27,15 @@
     "traits": [
       {
         "name": "Will to Survive",
-        "description": "Will to SurviveHumans can shake off debilitating stun effects."
+        "description": "Humans can shake off debilitating stun effects."
       },
       {
         "name": "Diplomacy",
-        "description": "DiplomacyThe straightforward and outspoken humans tend to get along well with other races and gain their trust with relative ease."
+        "description": "The straightforward and outspoken humans tend to get along well with other races and gain their trust with relative ease."
       },
       {
         "name": "The Human Spirit",
-        "description": "The Human SpiritHumans are very adaptable, and get additional bonuses to all secondary stats from all sources."
+        "description": "Humans are very adaptable, and get additional bonuses to all secondary stats from all sources."
       }
     ],
     "classes": [
@@ -78,19 +78,19 @@
     "traits": [
       {
         "name": "Explorer",
-        "description": "ExplorerDwarves receive a skill bonus to archaeology and are able to survey faster than other races."
+        "description": "Dwarves receive a skill bonus to archaeology and are able to survey faster than other races."
       },
       {
         "name": "Frost Resistance",
-        "description": "Frost ResistanceIronforge dwarves have a natural resistance to Frost magic."
+        "description": "Ironforge dwarves have a natural resistance to Frost magic."
       },
       {
         "name": "Might of the Mountain",
-        "description": "Might of the MountainDwarves battle with powerful intent and gain a bonus to critical strikes."
+        "description": "Dwarves battle with powerful intent and gain a bonus to critical strikes."
       },
       {
         "name": "Stoneform",
-        "description": "StoneformDwarves can temporarily turn to living stone, neutralizing ailments and reducing damage taken."
+        "description": "Dwarves can temporarily turn to living stone, neutralizing ailments and reducing damage taken."
       }
     ],
     "classes": [
@@ -134,23 +134,23 @@
     "traits": [
       {
         "name": "Shadowmeld",
-        "description": "ShadowmeldNight Elves can slip into the shadows, awaiting for the right moment to strike."
+        "description": "Night Elves can slip into the shadows, awaiting for the right moment to strike."
       },
       {
         "name": "Wisp Spirit",
-        "description": "Wisp SpiritFallen night elves assume the form of fleet wisp spirits."
+        "description": "Fallen night elves assume the form of fleet wisp spirits."
       },
       {
         "name": "Nature Resistance",
-        "description": "Nature ResistanceNight elves can resist Nature magic."
+        "description": "Night elves can resist Nature magic."
       },
       {
         "name": "Quickness",
-        "description": "QuicknessThe nimble night elves have slightly increased movement speed as well as a minor chance to completely avoid being hit by physical attacks."
+        "description": "The nimble night elves have slightly increased movement speed as well as a minor chance to completely avoid being hit by physical attacks."
       },
       {
         "name": "Touch of Elune",
-        "description": "Touch of EluneNight elves gain a unique benefit that changes between day and night time."
+        "description": "Night elves gain a unique benefit that changes between day and night time."
       }
     ],
     "classes": [
@@ -193,23 +193,23 @@
     "traits": [
       {
         "name": "Escape Artist",
-        "description": "Escape ArtistGnomes are small and nimble, which allows them to extricate themselves from even the most cunning traps."
+        "description": "Gnomes are small and nimble, which allows them to extricate themselves from even the most cunning traps."
       },
       {
         "name": "Arcane Resistance",
-        "description": "Arcane ResistanceGnomes have a natural resistance to Arcane magic."
+        "description": "Gnomes have a natural resistance to Arcane magic."
       },
       {
         "name": "Expansive Mind",
-        "description": "Expansive MindCurious, creative, and brilliant, gnomes receive a small bonus to their resource pool."
+        "description": "Curious, creative, and brilliant, gnomes receive a small bonus to their resource pool."
       },
       {
         "name": "Engineering Specialization",
-        "description": "Engineering SpecializationTheir expertise with gizmos, gadgets, and gimmicks provides gnomes with a skill bonus to engineering."
+        "description": "Their expertise with gizmos, gadgets, and gimmicks provides gnomes with a skill bonus to engineering."
       },
       {
         "name": "Nimble Fingers",
-        "description": "Nimble FingersGnomes, while diminutive in stature, are dangerously quick."
+        "description": "Gnomes, while diminutive in stature, are dangerously quick."
       }
     ],
     "classes": [
@@ -251,19 +251,19 @@
     "traits": [
       {
         "name": "Gift of the Naaru",
-        "description": "Gift of the NaaruThe draenei are blessed with a healing ability that can restore their health and that of their allies."
+        "description": "The draenei are blessed with a healing ability that can restore their health and that of their allies."
       },
       {
         "name": "Heroic Presence",
-        "description": "Heroic PresenceConfident and strong, draenei receive a slight bonus to their main stat."
+        "description": "Confident and strong, draenei receive a slight bonus to their main stat."
       },
       {
         "name": "Shadow Resistance",
-        "description": "Shadow ResistanceDraenei have a natural resistance to Shadow magic."
+        "description": "Draenei have a natural resistance to Shadow magic."
       },
       {
         "name": "Gemcutting",
-        "description": "GemcuttingThe talented draenei receive a bonus to their jewelcrafting skill"
+        "description": "The talented draenei receive a bonus to their jewelcrafting skill"
       }
     ],
     "classes": [
@@ -305,27 +305,27 @@
     "traits": [
       {
         "name": "Running Wild",
-        "description": "Running WildDrop to all fours to run as fast as a wild animal. Who needs a mount when you can run?"
+        "description": "Drop to all fours to run as fast as a wild animal. Who needs a mount when you can run?"
       },
       {
         "name": "Aberration",
-        "description": "AberrationWorgen have a natural resistance to Shadow and Nature damage."
+        "description": "Worgen have a natural resistance to Shadow and Nature damage."
       },
       {
         "name": "Darkflight",
-        "description": "DarkflightActivate your true form, drastically increasing movement speed for a short time."
+        "description": "Activate your true form, drastically increasing movement speed for a short time."
       },
       {
         "name": "Flayer",
-        "description": "FlayerWorgen claws are extremely sharp and can skin a slain beast rapidly."
+        "description": "Worgen claws are extremely sharp and can skin a slain beast rapidly."
       },
       {
         "name": "Viciousness",
-        "description": "ViciousnessWorgen fight with the ferocity of an apex predator and have an increased chance to hit with critical strikes."
+        "description": "Worgen fight with the ferocity of an apex predator and have an increased chance to hit with critical strikes."
       },
       {
         "name": "Two Forms",
-        "description": "Two FormsWorgen can shift in and out of Human form while not in combat."
+        "description": "Worgen can shift in and out of Human form while not in combat."
       }
     ],
     "classes": [
@@ -364,27 +364,27 @@
     "traits": [
       {
         "name": "Faction Neutral",
-        "description": "Faction NeutralPandaren may choose to align with either the Alliance or the Horde."
+        "description": "Pandaren may choose to align with either the Alliance or the Horde."
       },
       {
         "name": "Epicurean",
-        "description": "EpicureanYour love of food allows you to receive additional stats from eating specialized food."
+        "description": "Your love of food allows you to receive additional stats from eating specialized food."
       },
       {
         "name": "Gourmand",
-        "description": "GourmandPandaren are excellent cooks, and receive a slight increase to their cooking skill."
+        "description": "Pandaren are excellent cooks, and receive a slight increase to their cooking skill."
       },
       {
         "name": "Inner Peace",
-        "description": "Inner PeaceYour rested experience bonus lasts twice as long."
+        "description": "Your rested experience bonus lasts twice as long."
       },
       {
         "name": "Bouncy",
-        "description": "BouncyPandaren take less falling damage than other races."
+        "description": "Pandaren take less falling damage than other races."
       },
       {
         "name": "Quaking Palm",
-        "description": "Quaking PalmStrikes the target with lightning speed, incapacitating them for a short duration."
+        "description": "Strikes the target with lightning speed, incapacitating them for a short duration."
       }
     ],
     "classes": [
@@ -426,15 +426,15 @@
     "traits": [
       {
         "name": "Blood Fury",
-        "description": "Blood FuryOrcs can fly into a rage that increases their attack power or intellect (based on class) for a short time."
+        "description": "Orcs can fly into a rage that increases their attack power or intellect (based on class) for a short time."
       },
       {
         "name": "Hardiness",
-        "description": "HardinessRugged by nature, orcs recover from stun effects more quickly than other races."
+        "description": "Rugged by nature, orcs recover from stun effects more quickly than other races."
       },
       {
         "name": "Command",
-        "description": "CommandOrcs work well with combat pets, which receive a bonus to damage output under their care."
+        "description": "Orcs work well with combat pets, which receive a bonus to damage output under their care."
       }
     ],
     "classes": [
@@ -476,19 +476,19 @@
     "traits": [
       {
         "name": "Will of the Forsaken",
-        "description": "Will of the ForsakenThe Forsaken can shake off any charm, fear and sleep effects at will."
+        "description": "The Forsaken can shake off any charm, fear and sleep effects at will."
       },
       {
         "name": "Shadow Resistance",
-        "description": "Shadow ResistanceThe Forsaken have a natural resistance to Shadow magic."
+        "description": "The Forsaken have a natural resistance to Shadow magic."
       },
       {
         "name": "Cannibalize",
-        "description": "CannibalizeOne rather grisly means for the Forsaken to replenish their health is by consuming dead bodies."
+        "description": "One rather grisly means for the Forsaken to replenish their health is by consuming dead bodies."
       },
       {
         "name": "Touch of the Grave",
-        "description": "Touch of the GraveThe Forsaken can sometimes drain the life from their enemies and use it to repair their own bodies."
+        "description": "The Forsaken can sometimes drain the life from their enemies and use it to repair their own bodies."
       }
     ],
     "classes": [
@@ -530,23 +530,23 @@
     "traits": [
       {
         "name": "Brawn",
-        "description": "BrawnTauren are large, able-bodied warriors and gain a bonus to critical strikes."
+        "description": "Tauren are large, able-bodied warriors and gain a bonus to critical strikes."
       },
       {
         "name": "Cultivation",
-        "description": "CultivationTauren receive a skill bonus to herbalism, and they gather herbs faster than most herbalists."
+        "description": "Tauren receive a skill bonus to herbalism, and they gather herbs faster than most herbalists."
       },
       {
         "name": "Endurance",
-        "description": "EnduranceTheir exceptional constitution grants the tauren a bonus to their base health."
+        "description": "Their exceptional constitution grants the tauren a bonus to their base health."
       },
       {
         "name": "Nature Resistance",
-        "description": "Nature ResistanceTauren are resistant to Nature magic."
+        "description": "Tauren are resistant to Nature magic."
       },
       {
         "name": "War Stomp",
-        "description": "War StompShaking the ground with a mighty stomp of their hooves, tauren can briefly stun enemies."
+        "description": "Shaking the ground with a mighty stomp of their hooves, tauren can briefly stun enemies."
       }
     ],
     "classes": [
@@ -588,19 +588,19 @@
     "traits": [
       {
         "name": "Berserking",
-        "description": "BerserkingTrolls can launch themselves into a frenzy, and get increased Haste temporarily."
+        "description": "Trolls can launch themselves into a frenzy, and get increased Haste temporarily."
       },
       {
         "name": "Da Voodoo Shuffle",
-        "description": "Da Voodoo ShuffleThanks to their impressive legerity, trolls are less affected by movement impairing effects."
+        "description": "Thanks to their impressive legerity, trolls are less affected by movement impairing effects."
       },
       {
         "name": "Regeneration",
-        "description": "RegenerationTrolls have a natural healing factor that constantly replenishes their health."
+        "description": "Trolls have a natural healing factor that constantly replenishes their health."
       },
       {
         "name": "Beast Slaying",
-        "description": "Beast SlayingTrolls hunt with a keen awareness and gain additional experience from killing beasts."
+        "description": "Trolls hunt with a keen awareness and gain additional experience from killing beasts."
       }
     ],
     "classes": [
@@ -644,19 +644,19 @@
     "traits": [
       {
         "name": "Arcane Acuity",
-        "description": "Arcane AcuityBlood elves possess a preternatural talent for precision and gain a bonus to their critical strike chance."
+        "description": "Blood elves possess a preternatural talent for precision and gain a bonus to their critical strike chance."
       },
       {
         "name": "Arcane Torrent",
-        "description": "Arcane TorrentBlood elves can disrupt magic, removing one beneficial effect from enemies around them and restoring some of their own resources."
+        "description": "Blood elves can disrupt magic, removing one beneficial effect from enemies around them and restoring some of their own resources."
       },
       {
         "name": "Arcane Affinity",
-        "description": "Arcane AffinityBlood elves are skilled in the mystical arts and receive a skill bonus to enchanting."
+        "description": "Blood elves are skilled in the mystical arts and receive a skill bonus to enchanting."
       },
       {
         "name": "Magic Resistance",
-        "description": "Magic ResistanceBlood elves have a natural resistance to arcane magic spells."
+        "description": "Blood elves have a natural resistance to arcane magic spells."
       }
     ],
     "classes": [
@@ -700,27 +700,27 @@
     "traits": [
       {
         "name": "Rocket Jump",
-        "description": "Rocket JumpGoblins can use their (relatively) trusty rocket belts to launch themselves over short distances."
+        "description": "Goblins can use their (relatively) trusty rocket belts to launch themselves over short distances."
       },
       {
         "name": "Rocket Barrage",
-        "description": "Rocket BarrageThe rocket belt can also launch rockets at an enemy, causing fire damage to the target."
+        "description": "The rocket belt can also launch rockets at an enemy, causing fire damage to the target."
       },
       {
         "name": "Pack Hobgoblin",
-        "description": "Pack HobgoblinGoblins can access their bank vault from anywhere after earning the help of a trusted friend."
+        "description": "Goblins can access their bank vault from anywhere after earning the help of a trusted friend."
       },
       {
         "name": "Best Deals Anywhere",
-        "description": "Best Deals AnywhereWheeling and dealing is second nature to goblins, and they get discounts from vendors."
+        "description": "Wheeling and dealing is second nature to goblins, and they get discounts from vendors."
       },
       {
         "name": "Time is Money",
-        "description": "Time is MoneyGoblins cash in on a bonus to haste."
+        "description": "Goblins cash in on a bonus to haste."
       },
       {
         "name": "Better Living Through Chemistry",
-        "description": "Better Living Through ChemistryGoblins have a natural affinity for hazardous materials and receive a bonus to Alchemy."
+        "description": "Goblins have a natural affinity for hazardous materials and receive a bonus to Alchemy."
       }
     ],
     "classes": [
@@ -1067,7 +1067,14 @@
         "description": "Chance to gather additional meat and fish."
       }
     ],
-    "classes": ["Warrior", "Hunter", "Shaman", "Monk", "Druid", "Death Knight"]
+    "classes": [
+      "Warrior",
+      "Hunter",
+      "Shaman",
+      "Monk",
+      "Druid",
+      "Death Knight"
+    ]
   },
   {
     "faction": "Horde",
