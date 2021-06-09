@@ -32,16 +32,16 @@ export const getLinks = (
 
 export const getIntro = (
   cheerioSelector: cheerio.CheerioAPI
-): { title: string; body: string } | null => {
+): { title: string; description: string } | null => {
   const introSelector = cheerioSelector('.gutter-medium').children()[1]
   const title = cheerioSelector(introSelector).find('h2').text()
-  const body = cheerioSelector(introSelector).find('p').text()
+  const description = cheerioSelector(introSelector).find('p').text()
 
   if (!title) {
     return null
   }
 
-  return { title, body }
+  return { title, description }
 }
 
 export const getCrestSrc = (
@@ -66,10 +66,10 @@ export const getCrestSrc = (
 
 export const getHistory = (
   cheerioSelector: cheerio.CheerioAPI
-): { title: string; body: string } | null => {
+): { title: string; description: string } | null => {
   const historySelector = cheerioSelector(`h2:contains('History')`).first()
   const title = historySelector.text()
-  const body = cheerioSelector(`h2:contains('History')`)
+  const description = cheerioSelector(`h2:contains('History')`)
     .first()
     .siblings()
     .map((_idx, ele) => cheerioSelector(ele).text())
@@ -80,7 +80,7 @@ export const getHistory = (
     return null
   }
 
-  return { title, body }
+  return { title, description }
 }
 
 export const getSection = (
@@ -125,15 +125,17 @@ export const getClasses = (cheerioSelector: cheerio.CheerioAPI): string[] => {
 
 export const getAlliedIntro = (
   cheerioSelector: cheerio.CheerioAPI
-): { title: string; body: string } | null => {
+): { title: string; description: string } | null => {
   const title = 'Introduction'
-  const body = cheerioSelector(`.font-bliz-light-small-beige`).first().text()
+  const description = cheerioSelector(`.font-bliz-light-small-beige`)
+    .first()
+    .text()
 
-  if (!body) {
+  if (!description) {
     return null
   }
 
-  return { title, body }
+  return { title, description }
 }
 
 export const getAlliedCrestSrc = (
