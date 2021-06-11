@@ -5,8 +5,9 @@
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
-    "lib": ["esnext"]
+    "sourceMap": true,
+    "lib": ["esnext"],
+    "rootDir": "."
   },
-  "include": ["src/**/*.ts", "scraper/**/*.ts", "prisma/**/*.ts"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }

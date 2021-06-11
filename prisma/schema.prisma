@@ -1,0 +1,71 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Race {
+  id                 Int     @id @default(autoincrement())
+  name               String  @unique
+  faction            String
+  type               String
+  crestSrc           String
+  introTitle         String
+  introDescription   String
+  historyTitle       String?
+  historyDescription String?
+  zoneName           String?
+  zoneDescription    String?
+  cityName           String?
+  cityDescription    String?
+  mountName          String
+  mountDescription   String
+  traits             Trait[]
+  classes            Class[]
+}
+
+model Class {
+  id               Int              @id @default(autoincrement())
+  name             String           @unique
+  crestSrc         String
+  introTitle       String
+  introDescription String
+  info             String
+  combatRoles      String[]
+  resources        String[]
+  armorType        String[]
+  weapons          String[]
+  specializations  Specialization[]
+  features         Feature[]
+  races            Race[]
+}
+
+model Trait {
+  id          Int    @id @default(autoincrement())
+  name        String
+  description String
+  race        Race   @relation(fields: [raceId], references: [id])
+  raceId      Int
+}
+
+model Specialization {
+  id          Int    @id @default(autoincrement())
+  name        String
+  description String
+  class       Class  @relation(fields: [classId], references: [id])
+  classId     Int
+}
+
+model Feature {
+  id          Int    @id @default(autoincrement())
+  name        String
+  description String
+  class       Class  @relation(fields: [classId], references: [id])
+  classId     Int
+}
