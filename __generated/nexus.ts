@@ -27,15 +27,15 @@ export interface NexusGenObjects {
     armorType?: string[] | null // [String!]
     combatRoles?: string[] | null // [String!]
     crestSrc?: string | null // String
-    feature?: NexusGenRootTypes['Feature'][] | null // [Feature!]
+    features?: NexusGenRootTypes['Feature'][] | null // [Feature!]
     id?: number | null // Int
     info?: string | null // String
     introDescription?: string | null // String
     introTitle?: string | null // String
     name?: string | null // String
-    race?: NexusGenRootTypes['Race'][] | null // [Race!]
+    races?: NexusGenRootTypes['Race'][] | null // [Race!]
     resources?: string[] | null // [String!]
-    specialization?: NexusGenRootTypes['Specialization'][] | null // [Specialization!]
+    specializations?: NexusGenRootTypes['Specialization'][] | null // [Specialization!]
     weapons?: string[] | null // [String!]
   }
   Feature: {
@@ -50,6 +50,7 @@ export interface NexusGenObjects {
     // root type
     cityDescription?: string | null // String
     cityName?: string | null // String
+    classes?: Array<NexusGenRootTypes['Class'] | null> | null // [Class]
     crestSrc?: string | null // String
     faction?: string | null // String
     historyDescription?: string | null // String
@@ -95,15 +96,15 @@ export interface NexusGenFieldTypes {
     armorType: string[] | null // [String!]
     combatRoles: string[] | null // [String!]
     crestSrc: string | null // String
-    feature: NexusGenRootTypes['Feature'][] | null // [Feature!]
+    features: NexusGenRootTypes['Feature'][] | null // [Feature!]
     id: number | null // Int
     info: string | null // String
     introDescription: string | null // String
     introTitle: string | null // String
     name: string | null // String
-    race: NexusGenRootTypes['Race'][] | null // [Race!]
+    races: NexusGenRootTypes['Race'][] | null // [Race!]
     resources: string[] | null // [String!]
-    specialization: NexusGenRootTypes['Specialization'][] | null // [Specialization!]
+    specializations: NexusGenRootTypes['Specialization'][] | null // [Specialization!]
     weapons: string[] | null // [String!]
   }
   Feature: {
@@ -125,6 +126,7 @@ export interface NexusGenFieldTypes {
     // field return type
     cityDescription: string | null // String
     cityName: string | null // String
+    classes: Array<NexusGenRootTypes['Class'] | null> | null // [Class]
     crestSrc: string | null // String
     faction: string | null // String
     historyDescription: string | null // String
@@ -162,15 +164,15 @@ export interface NexusGenFieldTypeNames {
     armorType: 'String'
     combatRoles: 'String'
     crestSrc: 'String'
-    feature: 'Feature'
+    features: 'Feature'
     id: 'Int'
     info: 'String'
     introDescription: 'String'
     introTitle: 'String'
     name: 'String'
-    race: 'Race'
+    races: 'Race'
     resources: 'String'
-    specialization: 'Specialization'
+    specializations: 'Specialization'
     weapons: 'String'
   }
   Feature: {
@@ -192,6 +194,7 @@ export interface NexusGenFieldTypeNames {
     // field return type name
     cityDescription: 'String'
     cityName: 'String'
+    classes: 'Class'
     crestSrc: 'String'
     faction: 'String'
     historyDescription: 'String'
