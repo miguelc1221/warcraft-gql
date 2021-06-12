@@ -1,8 +1,9 @@
 import { FastifyPluginAsync } from 'fastify'
 
+// Health Check
 const root: FastifyPluginAsync = async (fastify): Promise<void> => {
   fastify.get('/', async function () {
-    return { root: true }
+    return { up: true }
   })
 }
 
