@@ -9,5 +9,6 @@
     "lib": ["esnext"],
     "rootDir": "."
   },
+  "include": ["__generated", "prisma", "scraper", "src", "test"],
   "exclude": ["node_modules", "dist"]
 }

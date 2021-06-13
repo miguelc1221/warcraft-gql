@@ -1,4 +1,4 @@
-import { objectType, extendType } from 'nexus'
+import { objectType, extendType, nonNull, intArg } from 'nexus'
 import { Race } from './Race'
 import { Specialization } from './Specialization'
 import { Feature } from './Feature'
@@ -35,6 +35,22 @@ export const ClassQuery = extendType({
       type: 'Class',
       resolve: (_root, _args, ctx) => {
         return ctx.db.class.findMany({
+          include: {
+            races: true,
+            features: true,
+            specializations: true,
+          },
+        })
+      },
+    })
+    t.field('classById', {
+      type: 'Class',
+      args: {
+        id: nonNull(intArg()),
+      },
+      resolve: (_root, args, ctx) => {
+        return ctx.db.class.findUnique({
+          where: { id: args.id },
           include: {
             races: true,
             features: true,

@@ -1,4 +1,4 @@
-import { objectType, extendType } from 'nexus'
+import { objectType, extendType, intArg, nonNull } from 'nexus'
 import { Trait } from './Trait'
 import { Class } from './Class'
 
@@ -36,6 +36,21 @@ export const RaceQuery = extendType({
       type: 'Race',
       resolve: (_root, _args, ctx) => {
         return ctx.db.race.findMany({
+          include: {
+            traits: true,
+            classes: true,
+          },
+        })
+      },
+    })
+    t.field('raceById', {
+      type: 'Race',
+      args: {
+        id: nonNull(intArg()),
+      },
+      resolve: (_root, args, ctx) => {
+        return ctx.db.race.findUnique({
+          where: { id: args.id },
           include: {
             traits: true,
             classes: true,
