@@ -9,6 +9,11 @@
     "lib": ["esnext"],
     "rootDir": "."
   },
-  "include": ["__generated", "prisma", "scraper", "src", "test"],
+  "include": [
+    "__generated",
+    "prisma/**/*.ts",
+    "scraper/**/*.ts",
+    "src/**/*.ts"
+  ],
   "exclude": ["node_modules", "dist"]
 }

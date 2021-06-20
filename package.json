@@ -28,7 +28,8 @@
     "migrate:deploy": "prisma migrate deploy",
     "migrate:reset": "prisma migrate reset",
     "prisma:format": "prisma format",
-    "studio": "prisma studio"
+    "studio": "prisma studio",
+    "upload-images": "ts-node -r dotenv/config scraper/uploadImages"
   },
   "repository": {
     "type": "git",
@@ -46,6 +47,7 @@
   },
   "homepage": "https://github.com/miguelc1221/warcraft-gql#readme",
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.18.0",
     "@prisma/client": "^2.24.1",
     "altair-fastify-plugin": "^4.0.6",
     "cheerio": "1.0.0-rc.9",
@@ -62,6 +64,7 @@
     "prisma": "^2.24.1"
   },
   "devDependencies": {
+    "@aws-sdk/types": "^3.18.0",
     "@types/node": "^15.0.0",
     "@types/tap": "^15.0.0",
     "@typescript-eslint/eslint-plugin": "^4.24.0",

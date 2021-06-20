@@ -5,6 +5,7 @@ import classData from '../scraper/classes.json'
 const prisma = new PrismaClient()
 
 const classMap = new Map(classData.map((i) => [i.name, i]))
+const s3ImageUrl = 'https://warcraft-gql.s3.us-east-2.amazonaws.com/'
 
 const seed = async (): Promise<void> => {
   for (const race of raceData) {
@@ -13,7 +14,10 @@ const seed = async (): Promise<void> => {
         faction: race.faction,
         name: race.name,
         type: race.type,
-        crestSrc: race.crestSrc,
+        crestSrc: `${s3ImageUrl}${race.name
+          .split(' ')
+          .join('-')
+          .toLowerCase()}-race-crest.png`,
         introTitle: race.intro.title,
         introDescription: race.intro.description,
         historyTitle: race.history?.title,
@@ -35,7 +39,10 @@ const seed = async (): Promise<void> => {
               where: { name: currentClass.name },
               create: {
                 name: currentClass.name,
-                crestSrc: currentClass.crestSrc,
+                crestSrc: `${s3ImageUrl}${currentClass.name
+                  .split(' ')
+                  .join('-')
+                  .toLowerCase()}-class-crest.png`,
                 introTitle: currentClass.intro.title,
                 introDescription: currentClass.intro.description,
                 info: currentClass.info,
