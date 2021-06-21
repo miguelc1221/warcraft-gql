@@ -113,13 +113,16 @@ export interface NexusGenFieldTypes {
   }
   Query: {
     // field return type
-    class: NexusGenRootTypes['Class'][] | null // [Class!]
     classById: NexusGenRootTypes['Class'] | null // Class
-    feature: NexusGenRootTypes['Feature'][] | null // [Feature!]
-    race: NexusGenRootTypes['Race'][] | null // [Race!]
+    classes: NexusGenRootTypes['Class'][] | null // [Class!]
+    featureById: NexusGenRootTypes['Feature'] | null // Feature
+    features: NexusGenRootTypes['Feature'][] | null // [Feature!]
     raceById: NexusGenRootTypes['Race'] | null // Race
-    specialization: NexusGenRootTypes['Specialization'][] | null // [Specialization!]
-    trait: NexusGenRootTypes['Trait'][] | null // [Trait!]
+    races: NexusGenRootTypes['Race'][] | null // [Race!]
+    specializationById: NexusGenRootTypes['Specialization'] | null // Specialization
+    specializations: NexusGenRootTypes['Specialization'][] | null // [Specialization!]
+    traitById: NexusGenRootTypes['Trait'] | null // Trait
+    traits: NexusGenRootTypes['Trait'][] | null // [Trait!]
   }
   Race: {
     // field return type
@@ -183,13 +186,16 @@ export interface NexusGenFieldTypeNames {
   }
   Query: {
     // field return type name
-    class: 'Class'
     classById: 'Class'
-    feature: 'Feature'
-    race: 'Race'
+    classes: 'Class'
+    featureById: 'Feature'
+    features: 'Feature'
     raceById: 'Race'
-    specialization: 'Specialization'
-    trait: 'Trait'
+    races: 'Race'
+    specializationById: 'Specialization'
+    specializations: 'Specialization'
+    traitById: 'Trait'
+    traits: 'Trait'
   }
   Race: {
     // field return type name
@@ -233,7 +239,19 @@ export interface NexusGenArgTypes {
       // args
       id: number // Int!
     }
+    featureById: {
+      // args
+      id: number // Int!
+    }
     raceById: {
+      // args
+      id: number // Int!
+    }
+    specializationById: {
+      // args
+      id: number // Int!
+    }
+    traitById: {
       // args
       id: number // Int!
     }

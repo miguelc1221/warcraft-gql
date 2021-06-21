@@ -31,7 +31,7 @@ export const Class = objectType({
 export const ClassQuery = extendType({
   type: 'Query',
   definition(t) {
-    t.list.nonNull.field('class', {
+    t.list.nonNull.field('classes', {
       type: 'Class',
       resolve: (_root, _args, ctx) => {
         return ctx.db.class.findMany({

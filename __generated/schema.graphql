@@ -25,13 +25,16 @@ type Feature {
 }
 
 type Query {
-  class: [Class!]
   classById(id: Int!): Class
-  feature: [Feature!]
-  race: [Race!]
+  classes: [Class!]
+  featureById(id: Int!): Feature
+  features: [Feature!]
   raceById(id: Int!): Race
-  specialization: [Specialization!]
-  trait: [Trait!]
+  races: [Race!]
+  specializationById(id: Int!): Specialization
+  specializations: [Specialization!]
+  traitById(id: Int!): Trait
+  traits: [Trait!]
 }
 
 type Race {

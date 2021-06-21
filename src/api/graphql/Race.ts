@@ -32,7 +32,7 @@ export const Race = objectType({
 export const RaceQuery = extendType({
   type: 'Query',
   definition(t) {
-    t.list.nonNull.field('race', {
+    t.list.nonNull.field('races', {
       type: 'Race',
       resolve: (_root, _args, ctx) => {
         return ctx.db.race.findMany({

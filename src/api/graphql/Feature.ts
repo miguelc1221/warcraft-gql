@@ -1,4 +1,4 @@
-import { objectType, extendType } from 'nexus'
+import { objectType, extendType, nonNull, intArg } from 'nexus'
 import { Class } from './Class'
 
 export const Feature = objectType({
@@ -16,10 +16,24 @@ export const Feature = objectType({
 export const FeatureQuery = extendType({
   type: 'Query',
   definition(t) {
-    t.list.nonNull.field('feature', {
+    t.list.nonNull.field('features', {
       type: 'Feature',
       resolve: async (_root, _args, ctx) => {
         return await ctx.db.feature.findMany()
+      },
+    })
+    t.field('featureById', {
+      type: 'Feature',
+      args: {
+        id: nonNull(intArg()),
+      },
+      resolve: (_root, args, ctx) => {
+        return ctx.db.feature.findUnique({
+          where: { id: args.id },
+          include: {
+            class: true,
+          },
+        })
       },
     })
   },
