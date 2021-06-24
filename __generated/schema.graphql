@@ -40,7 +40,7 @@ type Query {
 type Race {
   cityDescription: String
   cityName: String
-  classes: [Class]
+  classes: [Class!]
   crestSrc: String
   faction: String
   historyDescription: String
@@ -51,7 +51,7 @@ type Race {
   mountDescription: String
   mountName: String
   name: String
-  traits: [Trait]
+  traits: [Trait!]
   type: String
   zoneDescription: String
   zoneName: String

@@ -20,10 +20,10 @@ export const Race = objectType({
     t.string('cityDescription')
     t.string('mountName')
     t.string('mountDescription')
-    t.list.field('traits', {
+    t.list.nonNull.field('traits', {
       type: Trait,
     })
-    t.list.field('classes', {
+    t.list.nonNull.field('classes', {
       type: Class,
     })
   },

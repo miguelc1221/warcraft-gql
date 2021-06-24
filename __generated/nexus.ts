@@ -47,7 +47,7 @@ export interface NexusGenObjects {
     // root type
     cityDescription?: string | null // String
     cityName?: string | null // String
-    classes?: Array<NexusGenRootTypes['Class'] | null> | null // [Class]
+    classes?: NexusGenRootTypes['Class'][] | null // [Class!]
     crestSrc?: string | null // String
     faction?: string | null // String
     historyDescription?: string | null // String
@@ -58,7 +58,7 @@ export interface NexusGenObjects {
     mountDescription?: string | null // String
     mountName?: string | null // String
     name?: string | null // String
-    traits?: Array<NexusGenRootTypes['Trait'] | null> | null // [Trait]
+    traits?: NexusGenRootTypes['Trait'][] | null // [Trait!]
     type?: string | null // String
     zoneDescription?: string | null // String
     zoneName?: string | null // String
@@ -128,7 +128,7 @@ export interface NexusGenFieldTypes {
     // field return type
     cityDescription: string | null // String
     cityName: string | null // String
-    classes: Array<NexusGenRootTypes['Class'] | null> | null // [Class]
+    classes: NexusGenRootTypes['Class'][] | null // [Class!]
     crestSrc: string | null // String
     faction: string | null // String
     historyDescription: string | null // String
@@ -139,7 +139,7 @@ export interface NexusGenFieldTypes {
     mountDescription: string | null // String
     mountName: string | null // String
     name: string | null // String
-    traits: Array<NexusGenRootTypes['Trait'] | null> | null // [Trait]
+    traits: NexusGenRootTypes['Trait'][] | null // [Trait!]
     type: string | null // String
     zoneDescription: string | null // String
     zoneName: string | null // String
