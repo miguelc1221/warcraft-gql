@@ -57,7 +57,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/miguelc1221/warcraft-gql/tree/main/docs-site/docs',
+            'https://github.com/miguelc1221/warcraft-gql/tree/main/docs-site',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
