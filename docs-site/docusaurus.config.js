@@ -56,13 +56,8 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/miguelc1221/warcraft-gql/docs-site',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/miguelc1221/warcraft-gql/tree/main/docs-site/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
