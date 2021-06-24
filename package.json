@@ -29,7 +29,8 @@
     "migrate:reset": "prisma migrate reset",
     "prisma:format": "prisma format",
     "studio": "prisma studio",
-    "upload-images": "ts-node -r dotenv/config scraper/uploadImages"
+    "upload-images": "ts-node -r dotenv/config scraper/uploadImages",
+    "docs:dev": "cd docs-site && npm start"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,77 @@
+---
+sidebar_position: 2
+---
+
+# Schema
+
+```graphql
+type Class {
+  armorType: [String!]
+  combatRoles: [String!]
+  crestSrc: String
+  features: [Feature!]
+  id: Int
+  info: String
+  introDescription: String
+  introTitle: String
+  name: String
+  races: [Race!]
+  resources: [String!]
+  specializations: [Specialization!]
+  weapons: [String!]
+}
+
+type Feature {
+  class: Class
+  description: String
+  id: Int
+  name: String
+}
+
+type Query {
+  classById(id: Int!): Class
+  classes: [Class!]
+  featureById(id: Int!): Feature
+  features: [Feature!]
+  raceById(id: Int!): Race
+  races: [Race!]
+  specializationById(id: Int!): Specialization
+  specializations: [Specialization!]
+  traitById(id: Int!): Trait
+  traits: [Trait!]
+}
+
+type Race {
+  cityDescription: String
+  cityName: String
+  classes: [Class!]
+  crestSrc: String
+  faction: String
+  historyDescription: String
+  historyTitle: String
+  id: Int
+  introDescription: String
+  introTitle: String
+  mountDescription: String
+  mountName: String
+  name: String
+  traits: [Trait!]
+  type: String
+  zoneDescription: String
+  zoneName: String
+}
+
+type Specialization {
+  class: Class
+  description: String
+  id: Int
+  name: String
+}
+
+type Trait {
+  description: String
+  id: Int
+  name: String
+  race: Race
+}
+```

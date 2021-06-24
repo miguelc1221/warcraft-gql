@@ -1,0 +1,92 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+@font-face {
+  font-family: 'Friz Quadrata';
+  src: url('/static/friz-quadrata-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Friz Quadrata';
+  src: url('/static/friz-quadrata-bold-italic.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #f4bf2a;
+  --ifm-color-primary-dark: #f3b70f;
+  --ifm-color-primary-darker: #e7ae0c;
+  --ifm-color-primary-darkest: #be8f0a;
+  --ifm-color-primary-light: #f5c745;
+  --ifm-color-primary-lighter: #f6cb53;
+  --ifm-color-primary-lightest: #f8d87c;
+  --ifm-code-font-size: 95%;
+
+  --ifm-color-secondary: rgb(28, 30, 33);
+  /* --ifm-font-family-base: 'Friz Quadrata'; */
+
+  /* navbar */
+  --ifm-navbar-background-color: #2b374c;
+
+  /* footer */
+  --ifm-footer-background-color: #2b374c;
+  --ifm-footer-color: #fff;
+}
+
+html[data-theme='light'] {
+  --ifm-navbar-link-color: #fff;
+}
+
+html[data-theme='dark'] {
+  --ifm-background-color: #252f41;
+}
+
+.hero__title {
+  font-family: 'Friz Quadrata';
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 400;
+}
+
+.hero__subtitle {
+  color: #fff;
+}
+
+.main-wrapper {
+  display: flex;
+}
+
+.navbar__brand:hover {
+  color: #f4bf2a;
+}
+
+.navbar__brand img {
+  height: 50px;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 650px) {
+  .hero__title {
+    font-size: 4rem;
+  }
+}
