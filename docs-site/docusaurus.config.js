@@ -30,7 +30,7 @@ module.exports = {
           label: 'Docs',
         },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'http://localhost:3000/altair',
           label: 'Playground',
           position: 'left',
         },
