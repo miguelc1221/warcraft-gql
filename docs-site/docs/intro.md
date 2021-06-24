@@ -10,4 +10,4 @@
 | Header | Title | alrightthy  |
 | Header | Title | alrightthy  | -->
 
-![Docusaurus logo](/img/warcraft-logo.png)
+![Warcraft Logo](../static/img/warcraft-logo.png)
