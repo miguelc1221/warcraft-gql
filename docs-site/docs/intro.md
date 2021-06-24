@@ -10,4 +10,4 @@
 | Header | Title | alrightthy  |
 | Header | Title | alrightthy  | -->
 
-![Warcraft Logo](../static/img/warcraft-logo.png)
+![Warcraft Logo](img/warcraft-logo.png)
