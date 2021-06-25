@@ -31,7 +31,8 @@
     "studio": "prisma studio",
     "upload-images": "ts-node -r dotenv/config scraper/uploadImages",
     "docs:dev": "cd docs-site && npm start",
-    "docs:build": "cd docs-site && npm run build"
+    "docs:build": "cd docs-site && npm run build",
+    "postinstall": "cd docs-site && npm install"
   },
   "repository": {
     "type": "git",
