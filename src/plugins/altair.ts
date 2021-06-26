@@ -10,8 +10,8 @@ import AltairFastify, {
  */
 export default fp<AltairFastifyPluginOptions>(async (fastify) => {
   fastify.register(AltairFastify, {
-    path: '/altair',
-    baseURL: '/altair/',
+    path: '/playground',
+    baseURL: '/playground/',
     endpointURL: '/graphql', // 'endpointURL' should be the same as the mercurius 'path'
   })
 })

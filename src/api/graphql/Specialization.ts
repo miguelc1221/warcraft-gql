@@ -19,7 +19,11 @@ export const SpecializationQuery = extendType({
     t.list.nonNull.field('specializations', {
       type: 'Specialization',
       resolve: async (_root, _args, ctx) => {
-        return await ctx.db.specialization.findMany()
+        return await ctx.db.specialization.findMany({
+          include: {
+            class: true,
+          },
+        })
       },
     })
     t.field('specializationById', {

@@ -1,40 +1,191 @@
-# Manage Docs Versions
+# Class
 
-Docusaurus can manage multiple versions of your docs.
+All classes in World of Warraft
 
-## Create a docs version
+## Schema
 
-Release a version 1.0 of your project:
-
-```bash
-npm run docusaurus docs:version 1.0
+```graphql
+type Class {
+  armorType: [String!]
+  combatRoles: [String!]
+  crestSrc: String
+  features: [Feature!]
+  id: Int
+  info: String
+  introDescription: String
+  introTitle: String
+  name: String
+  races: [Race!]
+  resources: [String!]
+  specializations: [Specialization!]
+  weapons: [String!]
+}
 ```
 
-The `docs` folder is copied into `versioned_docs/version-1.0` and `versions.json` is created.
+## Get All Classes
 
-Your docs now have 2 versions:
+#### Sample Query
 
-- `1.0` at `http://localhost:3000/docs/` for the version 1.0 docs
-- `current` at `http://localhost:3000/docs/next/` for the **upcoming, unreleased docs**
+```graphql
+query {
+  classes {
+    id
+    name
+    crestSrc
+    introTitle
+    introDescription
+    info
+    combatRoles
+    resources
+    armorType
+    weapons
+    specializations {
+      name
+    }
+    features {
+      name
+    }
+    races {
+      name
+    }
+  }
+}
+```
 
-## Add a Version Dropdown
+#### Sample Query Response
 
-To navigate seamlessly across versions, add a version dropdown.
-
-Modify the `docusaurus.config.js` file:
-
-```js title="docusaurus.config.js"
-module.exports = {
-  themeConfig: {
-    navbar: {
-      items: [
-        // highlight-start
-        {
-          type: 'docsVersionDropdown',
-        },
-        // highlight-end
-      ],
-    },
-  },
+```graphql
+{
+  "data": {
+    "classes": [
+      {
+        "id": 1,
+        "name": "Warrior",
+        "crestSrc": "https://warcraft-gql.s3.us-east-2.amazonaws.com/warrior-class-crest.png",
+        "introTitle": "Lords of War",
+        "introDescription": "For as long as war has raged, heroes from every race have aimed to master the art of battle. Warriors combine strength, leadership, and a vast knowledge of arms and armor to wreak havoc in glorious combat. Some protect from the front lines with shields, locking down enemies while allies support the warrior from behind with spell and bow. Others forgo the shield and unleash their rage at the closest threat with a variety of deadly weapons.",
+        "info": "Warriors equip themselves carefully for combat and engage their enemies head-on, letting attacks glance off their heavy armor. They use diverse combat tactics and a wide variety of weapon types to protect their more vulnerable allies. Warriors must carefully master their rage – the power behind their strongest attacks – in order to maximize their effectiveness in combat.",
+        "combatRoles": [
+          "Tank",
+          "Damage"
+        ],
+        "resources": [
+          "Health",
+          "Rage"
+        ],
+        "armorType": [
+          "Plate",
+          "Shields"
+        ],
+        "weapons": [
+          "Daggers",
+          "Fist Weapons",
+          "Axes",
+          "Maces",
+          "Swords",
+          "Polearms",
+          "Staves"
+        ],
+        "specializations": [
+          {
+            "name": "Arms"
+          },
+          {
+            "name": "Fury"
+          },
+          {
+            "name": "Protection"
+          }
+        ],
+        "features": [
+          {
+            "name": "Tank"
+          },
+          {
+            "name": "Melee Damage"
+          },
+          {
+            "name": "Rage"
+          }
+        ],
+        "races": [
+          {
+            "name": "Human"
+          },
+          {
+            "name": "Dwarf"
+          },
+          {
+            "name": "Night Elf"
+          },
+          {
+            "name": "Gnome"
+          },
+          {
+            "name": "Draenei"
+          },
+          {
+            "name": "Worgen"
+          },
+          {
+            "name": "Pandaren"
+          },
+          {
+            "name": "Orc"
+          },
+          {
+            "name": "Undead"
+          },
+          {
+            "name": "Tauren"
+          },
+          {
+            "name": "Troll"
+          },
+          {
+            "name": "Blood Elf"
+          },
+          {
+            "name": "Goblin"
+          },
+          {
+            "name": "Void Elf"
+          },
+          {
+            "name": "Lightforged Draenei"
+          },
+          {
+            "name": "Dark Iron Dwarf"
+          },
+          {
+            "name": "Kul Tiran"
+          },
+          {
+            "name": "Mechagnome"
+          },
+          {
+            "name": "Nightborne"
+          },
+          {
+            "name": "Highmountain Tauren"
+          },
+          {
+            "name": "Mag'har Orc"
+          },
+          {
+            "name": "Zandalari Troll"
+          },
+          {
+            "name": "Vulpera"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Paladin",
+        ....
+      }
+    ]
+  }
 }
 ```

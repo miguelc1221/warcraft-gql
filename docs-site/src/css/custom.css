@@ -81,6 +81,10 @@ html[data-theme='dark'] {
   padding: 0 var(--ifm-pre-padding);
 }
 
+/* code {
+  white-space: pre-wrap !important;
+} */
+
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }

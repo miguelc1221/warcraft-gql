@@ -19,7 +19,11 @@ export const FeatureQuery = extendType({
     t.list.nonNull.field('features', {
       type: 'Feature',
       resolve: async (_root, _args, ctx) => {
-        return await ctx.db.feature.findMany()
+        return await ctx.db.feature.findMany({
+          include: {
+            class: true,
+          },
+        })
       },
     })
     t.field('featureById', {

@@ -37,8 +37,12 @@ export const RaceQuery = extendType({
       resolve: (_root, _args, ctx) => {
         return ctx.db.race.findMany({
           include: {
-            traits: true,
             classes: true,
+            traits: {
+              include: {
+                race: true,
+              },
+            },
           },
         })
       },

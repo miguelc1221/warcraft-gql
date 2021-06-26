@@ -19,7 +19,11 @@ export const TraitQuery = extendType({
     t.list.nonNull.field('traits', {
       type: 'Trait',
       resolve: async (_root, _args, ctx) => {
-        return await ctx.db.trait.findMany()
+        return await ctx.db.trait.findMany({
+          include: {
+            race: true,
+          },
+        })
       },
     })
     t.field('traitById', {

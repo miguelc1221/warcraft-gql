@@ -30,7 +30,7 @@ module.exports = {
           label: 'Docs',
         },
         {
-          href: 'http://localhost:3000/altair',
+          href: 'https://warcraft-gql.com/playground',
           label: 'Playground',
           position: 'left',
         },
