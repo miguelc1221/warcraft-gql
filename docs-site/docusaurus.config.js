@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'Warcraft-GQL',
-  tagline: 'A Graphql API for World of Warcraft',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'A GraphQL API for World of Warcraft',
+  url: 'https://warcraft-gql.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

@@ -20,12 +20,6 @@
   background-size: cover;
 }
 
-@media screen and (max-width: 966px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
@@ -40,4 +34,14 @@
 
 .docButton:hover {
   background-color: #e7ae0c;
+}
+
+@media screen and (max-width: 996px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .docButton {
+    margin: 0 0 24px 0;
+  }
 }

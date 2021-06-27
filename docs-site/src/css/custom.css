@@ -30,36 +30,36 @@
   --ifm-color-primary-light: #f5c745;
   --ifm-color-primary-lighter: #f6cb53;
   --ifm-color-primary-lightest: #f8d87c;
+  --white-color: #fff;
+
   --ifm-code-font-size: 95%;
 
   --ifm-color-secondary: rgb(28, 30, 33);
 
   /* navbar */
   --ifm-navbar-background-color: #2b374c;
+  --ifm-navbar-link-color: #fff;
 
   /* footer */
   --ifm-footer-background-color: #2b374c;
   --ifm-footer-color: #fff;
 }
 
-html[data-theme='light'] {
-  --ifm-navbar-link-color: #fff;
-}
-
 html[data-theme='dark'] {
   --ifm-background-color: #252f41;
+  --ifm-background-surface-color: #2b374c;
 }
 
 .hero__title {
   font-family: 'Friz Quadrata';
   font-size: 5rem;
-  color: #fff;
+  color: var(--white-color);
   font-weight: 400;
   font-weight: bold;
 }
 
 .hero__subtitle {
-  color: #fff;
+  color: var(--white-color);
 }
 
 .main-wrapper {
@@ -67,7 +67,7 @@ html[data-theme='dark'] {
 }
 
 .navbar__brand:hover {
-  color: #f4bf2a;
+  color: var(--ifm-color-primary);
 }
 
 .navbar__brand img {
@@ -81,16 +81,28 @@ html[data-theme='dark'] {
   padding: 0 var(--ifm-pre-padding);
 }
 
-/* code {
-  white-space: pre-wrap !important;
-} */
-
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 996px) {
   .hero__title {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+  .navbar__brand img {
+    height: 35px;
+  }
+  .menu--responsive .menu__button {
+    background-color: var(--ifm-color-primary);
+    border: none;
+  }
+  .navbar__toggle {
+    color: var(--white-color);
+  }
+  .navbar-sidebar .menu__link:not(.navbar__link--active) {
+    color: #fff;
+  }
+  .navbar-sidebar .menu__link:hover {
+    color: var(--ifm-color-primary);
   }
 }
