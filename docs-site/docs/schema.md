@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Schema
 
-```graphql
+```graphql title="Query Endpoint - https://warcraft-gql.com/graphql"
 type Class {
   armorType: [String!]
   combatRoles: [String!]

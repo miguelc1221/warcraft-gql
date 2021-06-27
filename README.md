@@ -8,6 +8,8 @@ A GraphQL API for World of Warcraft
 
 https://warcraft-gql.com
 
+Query Endpoint - https://warcraft-gql.com/graphql
+
 ## Getting Started
 
 ### Steps
