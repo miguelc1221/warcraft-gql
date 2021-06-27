@@ -81,3 +81,37 @@ query {
   }
 }
 ```
+
+## Get A Single Feature
+
+#### Sample Query
+
+```graphql
+query {
+  featureById(id: 1) {
+    id
+    name
+    description
+    class {
+      name
+    }
+  }
+}
+```
+
+#### Sample Query Response
+
+```graphql
+{
+  "data": {
+    "featureById": {
+      "id": 1,
+      "name": "Tank",
+      "description": "Mighty warriors depend on their heavy armor, shields, and battle prowess to defend themselves and ensure enemies don’t focus on their softer-skinned allies.",
+      "class": {
+        "name": "Warrior"
+      }
+    }
+  }
+}
+```

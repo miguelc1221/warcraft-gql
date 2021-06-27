@@ -81,3 +81,37 @@ query {
   }
 }
 ```
+
+## Get A Single Trait
+
+#### Sample Query
+
+```graphql
+query {
+  traitById(id: 1) {
+    id
+    name
+    description
+    race {
+      name
+    }
+  }
+}
+```
+
+#### Sample Query Response
+
+```graphql
+{
+  "data": {
+    "traitById": {
+      "id": 1,
+      "name": "Will to Survive",
+      "description": "Humans can shake off debilitating stun effects.",
+      "race": {
+        "name": "Human"
+      }
+    }
+  }
+}
+```

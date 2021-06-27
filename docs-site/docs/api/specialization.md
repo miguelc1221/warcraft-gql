@@ -73,3 +73,37 @@ query {
   }
 }
 ```
+
+## Get A Single Specialization
+
+#### Sample Query
+
+```graphql
+query {
+  specializationById(id: 1) {
+    id
+    name
+    description
+    class {
+      name
+    }
+  }
+}
+```
+
+#### Sample Query Response
+
+```graphql
+{
+  "data": {
+    "specializationById": {
+      "id": 1,
+      "name": "Arms",
+      "description": "A battle-hardened master of weapons, using mobility and overpowering attacks to strike her opponents down.\n\nPreferred Weapon: Two-Handed Axe, Mace, Sword",
+      "class": {
+        "name": "Warrior"
+      }
+    }
+  }
+}
+```
