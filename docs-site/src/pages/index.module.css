@@ -36,6 +36,13 @@
   background-color: #e7ae0c;
 }
 
+.tradeMark {
+  position: absolute;
+  bottom: 0;
+  right: 5px;
+  color: white;
+}
+
 @media screen and (max-width: 996px) {
   .buttons {
     flex-direction: column;

@@ -33,6 +33,7 @@ export default function Home() {
             ></iframe>
           </div>
         </div>
+        <small className={styles.tradeMark}>World of Warcraft®</small>
       </header>
     </Layout>
   )

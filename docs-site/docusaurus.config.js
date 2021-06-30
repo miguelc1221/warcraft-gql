@@ -42,7 +42,7 @@ module.exports = {
       ],
     },
     footer: {
-      copyright: `Copyright © ${new Date().getFullYear()} Miguel Correa`,
+      copyright: `Copyright © ${new Date().getFullYear()} Miguel Correa  <p style="margin: 0">Images and Logos are properties of BLIZZARD ENTERTAINMENT, INC.</p>`,
     },
     prism: {
       theme: lightCodeTheme,

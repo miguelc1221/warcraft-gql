@@ -5,3 +5,13 @@
 Query Endpoint `https://warcraft-gql.com/graphql`
 
 ![Warcraft Logo](/img/warcraft-logo.png)
+
+<p style={{ textAlign: 'right', margin: 0 }}>
+  <small>World of Warcraft® </small>
+</p>
+
+<p style={{ textAlign: 'right' }}>
+  <small>
+  World of Warcraft and Warcraft are trademarks or registered trademarks of Blizzard Entertainment, Inc., in the U.S. and/or other countries.
+  </small>
+</p>
