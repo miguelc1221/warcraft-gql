@@ -51,7 +51,7 @@
   "homepage": "https://github.com/miguelc1221/warcraft-gql#readme",
   "dependencies": {
     "@aws-sdk/client-s3": "^3.18.0",
-    "@prisma/client": "^5.9.0-dev.6",
+    "@prisma/client": "^5.8.0",
     "altair-fastify-plugin": "^4.0.6",
     "cheerio": "1.0.0-rc.9",
     "fastify": "^3.0.0",
@@ -65,8 +65,8 @@
     "got": "^11.8.2",
     "graphql": "^15.5.0",
     "mercurius": "^7.7.0",
-    "nexus": "^1.0.0",
-    "nexus-prisma": "^0.28.0"
+    "nexus": "^1.3.0",
+    "nexus-prisma": "^2.0.1"
   },
   "devDependencies": {
     "@aws-sdk/types": "^3.18.0",
